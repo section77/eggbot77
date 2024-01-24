@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 
 # Please don't include third party documents with unclear copyright.
 # Let's just grab them when needed
@@ -16,3 +16,7 @@ wget -nc https://a.pololu-files.com/picture/0J3359.1200.png -O Pololu_A4988_carr
 
 # A4988
 wget -nc https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf
+
+# Holbuchsen
+wget -nc https://www.pollin.de/productdownloads/D452316D.PDF -O D452316D_2_1_mm.pdf
+wget -nc https://www.pollin.de/productdownloads/D451810D.PDF -O D451810D_2_5_mm.pdf
