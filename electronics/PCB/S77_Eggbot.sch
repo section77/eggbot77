@@ -8795,12 +8795,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="58.42" y="160.02" size="1.778" layer="97">Achtung:
-Ausgangsspannung auf 5V
-einstellen, bevor die anderen
+<text x="50.8" y="162.56" size="1.778" layer="97">Achtung:
+Ausgangsspannung am Trimmer
+auf 5V einstellen, bevor die anderen
 Module gesteckt werden!</text>
-<text x="7.62" y="162.56" size="1.9304" layer="97">12V
-TODO: Bereich spezifizieren?</text>
+<text x="7.62" y="162.56" size="1.9304" layer="97">Input
+9V - 30V</text>
 <text x="30.988" y="146.558" size="1.778" layer="96">40V/3A</text>
 <text x="251.46" y="88.9" size="1.778" layer="96" rot="R90">2x Pollin 94-310690
 MINEBEA Schrittmotor
@@ -8812,7 +8812,7 @@ RED (A)
 -
 YEL (/A)
  </text>
-<text x="91.44" y="17.78" size="1.6764" layer="96" align="center-left">Braun - GND
+<text x="86.36" y="15.24" size="1.6764" layer="96" align="center-left">Braun - GND
 Rot - 5V
 Orange - PWM</text>
 <text x="152.4" y="132.08" size="1.778" layer="97" rot="R180">MS1 + MS3 100k,
@@ -8825,6 +8825,14 @@ RED (A)
 -
 YEL (/A)
  </text>
+<text x="101.6" y="160.02" size="1.9304" layer="97">for external use</text>
+<text x="114.3" y="33.02" size="1.9304" layer="97" rot="R90">IOs, DAC, SPI, I2C for external use</text>
+<text x="22.86" y="86.36" size="1.778" layer="97">EN has internal
+10k pull-up to +3V3</text>
+<text x="165.1" y="15.24" size="1.9304" layer="94">https://github.com/section77/eggbot77
+by andy, 25.01.2024</text>
+<text x="86.36" y="22.86" size="1.6764" layer="96" align="center-left">Graupner/JR
+Belegung:</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -8859,7 +8867,7 @@ YEL (/A)
 <instance part="X2" gate="-4" x="233.68" y="134.62"/>
 <instance part="X2" gate="-5" x="233.68" y="132.08"/>
 <instance part="X2" gate="-6" x="233.68" y="129.54"/>
-<instance part="SERVO" gate="A" x="88.9" y="17.78"/>
+<instance part="SERVO" gate="A" x="81.28" y="15.24"/>
 <instance part="SJ1" gate="1" x="162.56" y="132.08" smashed="yes">
 <attribute name="VALUE" x="160.02" y="128.27" size="1.778" layer="96"/>
 </instance>
@@ -8953,8 +8961,8 @@ YEL (/A)
 </segment>
 <segment>
 <pinref part="SERVO" gate="A" pin="1"/>
-<wire x1="86.36" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<label x="76.2" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="78.74" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
+<label x="68.58" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -9022,8 +9030,8 @@ YEL (/A)
 </segment>
 <segment>
 <pinref part="SERVO" gate="A" pin="2"/>
-<wire x1="86.36" y1="17.78" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
-<label x="76.2" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="78.74" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="91"/>
+<label x="68.58" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VBUS"/>
@@ -9324,8 +9332,8 @@ YEL (/A)
 </segment>
 <segment>
 <pinref part="SERVO" gate="A" pin="3"/>
-<wire x1="86.36" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
-<label x="76.2" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="78.74" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
+<label x="68.58" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$20" class="0">
