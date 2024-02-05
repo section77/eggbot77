@@ -23,3 +23,5 @@ Default settings after uploading eggbot77_gerber.zip to https://jlcpcb.com/ are 
 * Castellated Holes: No (*)
 * Edge Plating: No (*)
 * PCB Remark: "Please note: there are 3 plated slotted holes in this design"
+
+* Shipping Method: DDP EuroPacket (*)
