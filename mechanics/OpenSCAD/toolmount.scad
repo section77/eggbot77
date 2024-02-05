@@ -15,10 +15,7 @@ difference(){
       translate([-4,2,-1]){
         cube([5,18,12]);
       }
-    }
-  
-  
-  
+    }  
   }
 // end of union  
 // beginn difference
@@ -30,7 +27,7 @@ difference(){
   }
   translate([-10,12,5]){
     rotate([0,90,0]){
-      cylinder(r=1.4,h=20);
+      cylinder(r=1.9,h=20);
     }
   }
 translate([0,laenge-28,-1]){
@@ -62,5 +59,3 @@ translate([-3.5,laenge-8,-1]){
 }
 
 // end difference
-
- 
