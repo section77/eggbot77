@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>EggBot Control</name>
+  <id>command.evilmadscientist.eggbot.rev280b1</id>
+  <dependency type="extension">org.inkscape.output.svg.inkscape</dependency>
+  <dependency type="executable" location="extensions">eggbot.py</dependency>
+  <dependency type="executable" location="extensions">inkex</dependency>
+  <param name="tab" type="notebook">
+  
+    <page name="splash" gui-text="Plot">
+<label indent="1" appearance="header">
+Welcome to the EggBot interface!
+</label>
+<label indent="2" xml:space="preserve" >
+Press 'Apply' to begin plotting.
+
+Or, look in the other tabs to adjust your settings
+and use additional EggBot functions.
+
+Need help? 
+Visit http://wiki.evilmadscientist.com/eggbot
+
+</label>
+</page>
+
+    <page name='setup' gui-text='Setup'>
+
+      <label appearance="header">
+EggBot: Basic Setup
+</label>
+      <param indent="1" name="penUpPosition" type="int" min="0" max="100"
+	     gui-text="Pen up position, 0-100%:">55</param>
+      <param indent="1" name="penDownPosition" type="int" min="0" max="100"
+	     gui-text="Pen down position, 0-100%:">50</param>
+
+  <param name="setupType" type="optiongroup" gui-text="
+  Action on 'Apply': " appearance="combo">
+	<option value="toggle-pen"     >Toggle pen up/down</option>
+	<option value="align-mode"     >Raise pen, turn off motors</option>
+      </param>
+      <label indent="1"
+	      xml:space="preserve">
+- Raise and lower pen to check the
+  pen-up and pen-down positions.
+
+- Raise pen and turn off stepper motors
+  for aligning objects in the EggBot.
+</label>
+    </page>
+
+
+    <page name='timing' gui-text='Timing'>
+
+<label appearance="header">Movement speeds:</label>
+
+
+      <param indent="1" name="penDownSpeed" type="int" min="1" max="10000"
+	   gui-text="Speed when pen is down (steps/s):">300</param>
+      <param indent="1" name="penUpSpeed" type="int" min="1" max="10000"
+	   gui-text="Speed when pen is up (step/s):">400</param>
+
+<label appearance="header">Pen lift and lowering speeds:</label>
+
+      <param indent="1" name="ServoUpSpeed" type="int" min="1" max="1600"
+	   gui-text="Pen raising speed (%/s):">50</param>
+      <param indent="1" name="penUpDelay" type="int" min="1" max="5000"
+	   gui-text="Delay after raising pen (ms):">200</param>
+      <param indent="1" name="ServoDownSpeed" type="int" min="1" max="1600"
+	   gui-text="Pen lowering speed (%/s):">20</param>
+      <param indent="1" name="penDownDelay" type="int" min="1" max="5000"
+	   gui-text="Delay after lowering pen (ms):">400</param>
+<label indent="2" xml:space="preserve">
+
+(Press 'Apply' to save settings.)</label>
+</page>
+
+<page name='options' gui-text='Options'>
+<label appearance="header">Advanced Options:</label>
+
+<param indent="1" name="revPenMotor" type="bool"
+gui-text="Reverse motion of Motor 1 (pen)">true</param>
+<param indent="1" name="revEggMotor" type="bool"
+gui-text="Reverse motion of Motor 2 (egg)">true</param>
+<param indent="1" name="wraparound" type="bool"
+gui-text="Egg (x) axis wraps around">true</param>
+<param indent="1" name="startCentered" type="bool"
+gui-text="Start with pen centered">true</param>
+<param indent="1" name="returnToHome" type="bool"
+gui-text="Return home when done">true</param>
+<param indent="1" name="engraving" type="bool"
+gui-text="Enable engraver, if attached">false</param>
+<param indent="1" name="smoothness" type="float"
+gui-text="Curve smoothing (lower for more):">.2</param>
+<label indent="2" xml:space="preserve">
+
+(Press 'Apply' to save settings.)</label>
+    </page>
+
+
+	
+    <page name="manual" gui-text="Manual">
+<label appearance="header">EggBot Manual Control</label>
+<label indent="1" >
+You can use this tab to send "manual" commands
+to the EggBot: Walk the stepper motors, raise or
+lower the pen, enable or disable the motors, or 
+check the circuit board (EBB) firmware version.
+</label>
+
+<param name="manualType" type="optiongroup" appearance="combo"
+	     gui-text="               Command: ">
+	<option value="none"           >- Select -</option>
+	<option value="raise-pen"      >Raise the Pen</option>
+	<option value="lower-pen"      >Lower the Pen</option>
+	<option value="walk-egg-motor" >Walk Motor 2 (egg)</option>
+	<option value="walk-pen-motor" >Walk Motor 1 (pen)</option>
+	<option value="enable-motors"  >Enable Motors</option>
+	<option value="disable-motors" >Disable Motors</option>
+	<option value="enable-engraver"  >Engraver On</option>
+	<option value="disable-engraver" >Engraver Off</option>
+	<option value="version-check"  >Check EBB Version</option>
+	<option value="strip-data"     >Strip plotter data from file</option>
+      </param>
+
+      <param name="WalkDistance" type="int" min="-32000" max="32000" 
+             gui-text="               Walk distance (steps):">5</param>
+      <label indent="3"
+	      xml:space="preserve">Walk distances may be positive or negative.
+
+Press 'Apply' to execute the command.
+</label>
+    </page>
+
+    <page name="resume" gui-text="Resume">
+<label  appearance="header">Pause and Resume</label>
+<label indent="1">
+To pause a plot in progress, press the pause button
+(marked "PRG") on the EggBot's "EBB" controller
+board. After pausing, you can change settings or
+perform any manual adjustments that are needed.
+
+To resume printing, or to simply cancel and 
+return the pen home, press 'Apply' below.   
+
+Plot progress is stored in the Inkscape file itself.
+If you plan to quit Inkscape and resume later, 
+remember to save the document before quitting.
+
+You can resume directly where you paused, or
+after using the Return to Home Corner command.
+</label>
+      <param name="cancelOnly" type="bool"
+	     gui-text="Cancel and return home only">false</param>
+    </page>		
+
+    <page name="layers" gui-text="Layers">
+<label appearance="header">Print individual layer(s) </label>
+<label  indent="1" >
+Normally, we plot paths from all layers.  
+
+You can also choose to plot a single layer 
+or group of layers, for example to change
+pens between plotting layers.
+
+Pressing 'Apply' from this frame will plot
+only layers whose names begin with the 
+selected number, which can be up to 100.
+</label>
+      <param name="layernumber" type="int" min="0" max="100"
+	     gui-text="   Plot only layers beginning with: ">1</param>
+    </page>			
+
+    <page name="Help" gui-text="*">
+      <label
+	      xml:space="preserve">
+EggBot Control Inkscape extension 
+Release 2.8.1, dated 2017-06-07
+
+* EBB Firmware 2.5.1 or newer is recommended.
+
+Known issues:
+* "Cancel" function does not work while plotting.
+  (This is due to a known bug in Inkscape; the
+   "cancel" button does not work with any
+   Inkscape extension, including this one.)
+   
+Latest version and issue tracker available at:
+https://github.com/evil-mad/EggBot/
+
+
+</label>
+    </page>
+  </param>
+
+  <effect needs-live-preview="false" >
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="EggBot"/>
+    </effects-menu>
+  </effect>
+
+  <script>
+    <command location="inx" interpreter="python">eggbot.py</command>
+  </script>
+
+</inkscape-extension>

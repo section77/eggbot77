@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Hershey Text</name>
+  <id>org.evilmad.render.hershe</id>
+  <!-- Version 2.2 November 28, 2017 -->
+  <dependency type="executable" location="extensions">hershey.py</dependency>
+  <dependency type="executable" location="extensions">hersheydata.py</dependency>
+  <dependency type="executable" location="extensions">inkex</dependency>
+
+  <param name="tab" type="notebook">
+    <page name="splash" gui-text="Render Text">
+
+<label indent="1" appearance="header">
+Hershey Text: Engraving Fonts for Inkscape
+
+</label>
+      <param indent="2" name="text" type="string" gui-text="Text:">The Quick Brown Fox Jumps Over a Lazy Dog</param>
+
+      <param indent="2" name="action" type="optiongroup" gui-text="Action: " appearance="combo">
+        <option value="render"   >Typeset that text</option>
+        <option value="sample"   >Generate font table: All fonts</option>
+        <option value="sampleHW" >Generate font table: Handwriting-like</option>
+        <option value="table"    >Generate glyph table in selected font</option>
+      </param>
+
+      <param indent="2" name="fontface" type="optiongroup" gui-text="Font face: " appearance="combo">
+        <option value="futural">Sans 1-stroke</option>
+        <option value="futuram">Sans bold</option>
+
+        <option value="timesr">Serif medium</option>
+        <option value="timesi">Serif medium italic</option>
+        <option value="timesib">Serif bold italic</option>
+        <option value="timesrb">Serif bold</option>
+
+        <option value="scripts">Script 1-stroke</option>
+        <option value="cursive">Script 1-stroke (alt)</option>
+        <option value="scriptc">Script medium</option>
+
+        <option value="gothiceng">Gothic English</option>
+        <option value="gothicger">Gothic German</option>
+        <option value="gothicita">Gothic Italian</option>
+
+        <!-- Block below this are loosely adapted from fonts licensed under SIL Open Font License -->
+		<option value="EMSAllure">EMS Allure</option>
+		<option value="EMSBird">EMS Bird</option>
+		<option value="EMSBirdSwashCaps">EMS Bird Swash Caps</option>
+		<option value="EMSBrush">EMS Brush</option>
+		<option value="EMSCapitol">EMS Capitol</option>
+		<option value="EMSCasualHand">EMS Casual Hand</option>
+		<option value="EMSDecorousScript">EMS Decorous Script</option>
+		<option value="EMSDelight">EMS Delight</option>
+		<option value="EMSDelightSwashCaps">EMS Delight Swash Caps</option>
+		<option value="EMSElfin">EMS Elfin</option>
+		<option value="EMSFelix">EMS Felix</option>
+		<option value="EMSHerculean">EMS Herculean</option>
+		<option value="EMSInvite">EMS Invite</option>
+		<option value="EMSLeague">EMS League</option>
+		<option value="EMSLittlePrincess">EMS Little Princess</option>
+		<option value="EMSMistyNight">EMS Misty Night</option>
+		<option value="EMSNeato">EMS Neato</option>
+		<option value="EMSNixish">EMS Nixish</option>
+		<option value="EMSNixishItalic">EMS Nixish Italic</option>
+		<option value="EMSOsmotron">EMS Osmotron</option>
+		<option value="EMSPancakes">EMS Pancakes</option>
+		<option value="EMSPepita">EMS Pepita</option>
+		<option value="EMSQwandry">EMS Qwandry</option>
+		<option value="EMSReadability">EMS Readability</option>
+		<option value="EMSReadabilityItalic">EMS Readability Italic</option>
+		<option value="EMSSociety">EMS Society</option>
+		<option value="EMSSwiss">EMS Swiss</option>
+        <option value="EMSTech">EMS Tech</option>
+        <!-- Block above this are loosely adapted from fonts licensed under SIL Open Font License -->
+
+        <option value="greek">Greek 1-stroke</option>
+        <option value="timesg">Greek medium</option>
+        <option value="cyrillic">Cyrillic</option>
+        <option value="japanese">Japanese</option>
+
+        <option value="astrology">Astrology</option>
+        <option value="mathlow">Math (lower)</option>
+        <option value="mathupp">Math (upper)</option>
+        <option value="markers">Markers</option>
+        <option value="meteorology">Meteorology</option>
+        <option value="music">Music</option>
+        <option value="symbolic">Symbolic</option>
+
+      </param>
+      <label xml:space="preserve">
+</label>
+
+    </page>
+    <page name="info" gui-text="About Hershey Text">
+<label indent="1" appearance="header">Hershey Text 2.2</label>
+<label xml:space="preserve">This tool renders a line of text using specialized
+"stroke" or "engraving" fonts designed for plotters. 
+
+Whereas regular "outline" fonts (e.g., TrueType) work
+by filling in the region inside an invisible outline,
+engraving fonts are composed only of individual lines
+or strokes; much like human handwriting.
+
+Engraving fonts are used for creating text paths that
+computer controlled drawing and cutting machines (from
+pen plotters to CNC routers) can efficiently follow. 
+
+For a full introduction, please visit:
+  www.evilmadscientist.com/go/hershey</label>
+</page>
+
+<page name="credits" gui-text="Credits">
+<label xml:space="preserve">
+The classic fonts included -- those without the "EMS"
+prefix -- are derived from work by Dr. A. V. Hershey,
+distributed by the US National Bureau of Standards
+(now NIST) in NBS SP-424 1976-04, "A contribution to 
+computer typesetting techniques: Tables of Coordinates
+for Hershey's Repertory of Occidental Type Fonts and
+Graphic Symbols."
+
+Additional modern "EMS" fonts in this distribution are
+derivatives created from fonts licensed under the SIL
+Open Font License.
+
+For full credits and license information, please see
+the "hersheydata.py" file included with this
+distribution or visit:
+   wiki.evilmadscientist.com/hershey
+</label>
+</page>
+</param>
+
+  <effect needs-live-preview="true" needs-document="true">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="Render"/>
+    </effects-menu>
+  </effect>
+    <script>
+      <command location="inx" interpreter="python">hershey.py</command>
+    </script>
+</inkscape-extension>
