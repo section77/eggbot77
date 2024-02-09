@@ -10,6 +10,7 @@ wget -nc https://www.wemos.cc/en/latest/_static/files/sch_s2_mini_v1.0.0.pdf
 
 # ESP32
 wget -nc https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
+wget -nc https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf
 
 # Pololu A4988 carrier board
 wget -nc https://a.pololu-files.com/picture/0J3359.1200.png -O Pololu_A4988_carrier_board.png
