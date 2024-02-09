@@ -12,7 +12,7 @@ if (! exist ("matlab-midi", "dir"))
 endif
 addpath ("matlab-midi/src");
 
-function read_eply (s)
+function read_reply (s)
   reply = char(srl_read (s, 4));
 endfunction
 
