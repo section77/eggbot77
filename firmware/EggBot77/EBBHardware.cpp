@@ -5,22 +5,20 @@
 
 #define EEPROM_PEN_UP_POS 0
 #define EEPROM_PEN_DOWN_POS 2
-#define EEPROM_PEN_UP_RATE 4
-#define EEPROM_PEN_DOWN_RATE 6
 
-#define DEFAULT_PULSE_WIDTH 500
-#define MAX_PULSE_WIDTH 666
-#define MIN_PULSE_WIDTH 666
+// https://rn-wissen.de/wiki/index.php/Servos
+// width in µs
+#define SERVO_MIN_PULSE_WIDTH 950
+#define SERVO_MAX_PULSE_WIDTH 2050
+#define SERVO_DEFAULT_PULSE_WIDTH 1500
 
 EBBHardware::EBBHardware(Stream& stream)
     : EBBParser(stream)
     , mRotMotor(X_STEP_PIN, X_DIR_PIN)
     , mPenMotor(Y_STEP_PIN, Y_DIR_PIN)
     , mPenState(false)
-    , mPenUpPos(DEFAULT_PULSE_WIDTH - 200) // can be overwritten from EBB-Command SC
-    , mPenDownPos(DEFAULT_PULSE_WIDTH) // can be overwritten from EBB-Command SC
-    , mServoRateUp(0)
-    , mServoRateDown(0)
+    , mPenUpPos(SERVO_DEFAULT_PULSE_WIDTH - 200) // can be overwritten from EBB-Command SC
+    , mPenDownPos(SERVO_DEFAULT_PULSE_WIDTH) // can be overwritten from EBB-Command SC
     , mMotorEnabled(false)
     , mPrgButtonState(false)
 #ifdef PRG_BUTTON_PIN
@@ -39,8 +37,6 @@ void EBBHardware::init()
 {
     EEPROM.get(EEPROM_PEN_UP_POS, mPenUpPos);
     EEPROM.get(EEPROM_PEN_DOWN_POS, mPenDownPos);
-    EEPROM.get(EEPROM_PEN_UP_RATE, mServoRateUp);
-    EEPROM.get(EEPROM_PEN_DOWN_RATE, mServoRateDown);
 
     pinMode(X_ENABLE_PIN, OUTPUT);
     pinMode(Y_ENABLE_PIN, OUTPUT);
@@ -50,6 +46,14 @@ void EBBHardware::init()
     enableMotor(0, false);
     enableMotor(1, false);
     setPenState(mPenState, 0);
+
+    // attach onboard LED to channel 1
+    ledcAttachPin(LED_BUILTIN, 1);
+    ledcSetup(LED_BUILTIN_LEDC_CH, 1200, 10);
+
+    // attach Servo PWM pin to channel 2
+    ledcAttachPin(SERVO_PIN, 2);
+    ledcSetup(SERVO_PIN_LEDC_CH, 50, 10);
 }
 
 void EBBHardware::processEvents()
@@ -136,14 +140,9 @@ void EBBHardware::setEngraverState(bool state, int power)
 void EBBHardware::setPenState(bool up, short delayMs)
 {
     moveToDestination();
-
-    if (up) {
-        //mPenServo.write(mPenUpPos, mServoRateUp);
-    } else {
-        //mPenServo.write(mPenDownPos, mServoRateDown);
-    }
+    uint16_t pwm_val = ((up)? mPenUpPos:mPenDownPos) / 20000.0f * 1024;
+    ledcWrite(SERVO_PIN_LEDC_CH, pwm_val);
     mPenState = up;
-
     delay(delayMs);
 }
 
@@ -155,27 +154,15 @@ bool EBBHardware::getPenState()
 void EBBHardware::setPenUpPos(int percent)
 {
     // transformation from percent to PWM-Servo
-    mPenUpPos = MIN_PULSE_WIDTH + (MAX_PULSE_WIDTH - MIN_PULSE_WIDTH) / 100.f * percent;
+    mPenUpPos = SERVO_MIN_PULSE_WIDTH + (SERVO_MAX_PULSE_WIDTH - SERVO_MIN_PULSE_WIDTH) * percent / 100.f;
     EEPROM.put(EEPROM_PEN_UP_POS, mPenUpPos);
 }
 
 void EBBHardware::setPenDownPos(int percent)
 {
     // transformation from percent to PWM-Servo
-    mPenDownPos = MIN_PULSE_WIDTH + (MAX_PULSE_WIDTH - MIN_PULSE_WIDTH) / 100.f * percent;
+    mPenDownPos = SERVO_MIN_PULSE_WIDTH + (SERVO_MAX_PULSE_WIDTH - SERVO_MIN_PULSE_WIDTH) * percent / 100.f;
     EEPROM.put(EEPROM_PEN_DOWN_POS, mPenDownPos);
-}
-
-void EBBHardware::setServoRateUp(int percentPerSecond)
-{
-    mServoRateUp = percentPerSecond;
-    EEPROM.put(EEPROM_PEN_UP_RATE, mServoRateUp);
-}
-
-void EBBHardware::setServoRateDown(int percentPerSecond)
-{
-    mServoRateDown = percentPerSecond;
-    EEPROM.put(EEPROM_PEN_DOWN_RATE, mServoRateDown);
 }
 
 bool EBBHardware::getPrgButtonState()

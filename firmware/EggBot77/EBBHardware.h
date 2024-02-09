@@ -32,9 +32,6 @@ protected:
     virtual void setPenUpPos(int percent);
     virtual void setPenDownPos(int percent);
 
-    virtual void setServoRateUp(int percentPerSecond);
-    virtual void setServoRateDown(int percentPerSecond);
-
     virtual bool getPrgButtonState();
 
     virtual void setPinOutput(char port, int pin, int value);
@@ -46,7 +43,6 @@ private:
 
     Stepper mRotMotor;
     Stepper mPenMotor;
-    //VarSpeedServo mPenServo;
 
     bool mPenState;
     short mPenUpPos; // eeprom!

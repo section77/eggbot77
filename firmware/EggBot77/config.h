@@ -12,9 +12,13 @@
 
 // Servo
 #define SERVO_PIN 6 // "SpnEn"
-#define ENGRAVER_PIN 7 // "SpnDir"
 
-// Buttons
+// EggBot77 doesn't have an engraver or buttons
+#define ENGRAVER_PIN 7 // "SpnDir"
 #define PRG_BUTTON_PIN 9 // PRG button ("Abort")
 #define PEN_TOGGLE_BUTTON_PIN 11 // pen up/down button ("Hold")
 #define MOTORS_BUTTON_PIN 17 // motors enable button ("Resume")
+
+// ESP32 LED controller channels
+#define LED_BUILTIN_LEDC_CH 1
+#define SERVO_PIN_LEDC_CH 2

@@ -1,7 +1,7 @@
 #pragma once
 
 // implemented Eggbot-Protocol-Version v13
-// EBB-Command-Reference, I sourced from: http://www.schmalzhaus.com/EBB/EBBParser.html
+// https://evil-mad.github.io/EggBot/ebb.html
 
 #include <Stream.h>
 
@@ -19,9 +19,6 @@ protected:
     virtual bool getPenState() = 0;
     virtual void setPenUpPos(int percent) = 0;
     virtual void setPenDownPos(int percent) = 0;
-
-    virtual void setServoRateUp(int percentPerSecond) = 0;
-    virtual void setServoRateDown(int percentPerSecond) = 0;
 
     virtual bool getPrgButtonState() = 0;
     virtual void setPinOutput(char port, int pin, int value) = 0;

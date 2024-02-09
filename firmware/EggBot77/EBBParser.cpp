@@ -394,20 +394,24 @@ void EBBParser::parseSC(const char* arg1, const char* arg2)
     int value = atoi(arg2);
     switch (cmd) {
     case 4:
+        // FIXME: val / 240 - 25 is the reverse from eggbot.py line 1056:1060
+        // intTemp = 240 * ( self.options.penUpPosition + 25 )
         setPenUpPos(value / 240 - 25);
+        setPenState (getPenState (), 0);
         break;
     case 5:
         setPenDownPos(value / 240 - 25);
+        setPenState (getPenState (), 0);
         break;
     case 6: // rotMin=value;    ignored
         break;
     case 7: // rotMax=value;    ignored
         break;
     case 11:
-        setServoRateUp(value / 5);
+        //setServoRateUp(value / 5); ignored
         break;
     case 12:
-        setServoRateDown(value / 5);
+        //setServoRateDown(value / 5); ignored
         break;
     default:
         sendError();
