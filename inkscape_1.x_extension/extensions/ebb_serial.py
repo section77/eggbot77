@@ -63,11 +63,15 @@ def findPort():
 			elif port[1] == "DENEYAP MINI - TinyUSB CDC":
 				EBBport = port[0]  # Success; ESP32 S2 mini found by name match.
 				break  # stop searching-- we are done.
+			elif port[1] == "LOLIN-S2-MINI - TinyUSB CDC":
+				EBBport = port[0]  # Success; ESP32 S2 mini found by name match.
+				break  # stop searching-- we are done.
 		if EBBport is None:
 			for port in comPortsList: # check known devices
 				if port[2].startswith("USB VID:PID=04D8:FD92") or \
 						port[2].startswith("USB VID:PID=2341:0043") or \
-						port[2].startswith("USB VID:PID=303A:8141"): # DENEYAP MINI / ESP32 S2 mini
+						port[2].startswith("USB VID:PID=303A:8141") or \
+						port[2].startswith("USB VID:PID=303A:80C2"):
 					EBBport = port[0] #Success; EBB found by VID/PID match.
 					break	#stop searching-- we are done.				
 		#inkex.utils.debug("DEBUG: found EBB compatible device at " + port[0] + ";" + port[1] + ";" + port[2])
