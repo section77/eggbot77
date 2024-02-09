@@ -8831,9 +8831,12 @@ YEL (/A)
 <text x="22.86" y="86.36" size="1.778" layer="97">EN has internal
 10k pull-up to +3V3</text>
 <text x="165.1" y="15.24" size="1.9304" layer="94">https://github.com/section77/eggbot77
-by andy, 25.01.2024</text>
-<text x="86.36" y="22.86" size="1.6764" layer="96" align="center-left">Graupner/JR
-Belegung:</text>
+by andy, 09.02.2024</text>
+<text x="86.36" y="22.86" size="1.6764" layer="96" align="center-left">Graupner/JR:</text>
+<text x="104.14" y="10.16" size="1.9304" layer="97">ATTENTION:
+3,3V PWM voltage level
+Some servos might have problems
+FIXME: consider level shifter</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
