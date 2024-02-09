@@ -1,5 +1,5 @@
 [CAM Processor Job]
-Description[en]="\n\n<b>JLCPCB 2-layer CAM job for Eagle 7.2 to 8.5.2</b><p>\n\nTested in Eagle 7.2 to 8.5.2<p>\n9 RS-274X Gerber files and 1 EXCELLON file will be generated:<p>\nTop Copper Layer: pcbname.GTL<br>\nTop Silkscreen: pcbname.GTO<br>\nTop Solder Mask: pcbname.GTS<br>\nTop Solder Paste: pcbname.GTP<p>\n\nBottom Copper Layer: pcbname.GBL<br>\nBottom Silkscreen: pcbname.GBO<br>\nBottom Solder Mask: pcbname.GBS<br>\nBottom Solder Paste: pcbname.GBP<p>\n\npcbname.GKO contains:<br>\n* Board Outline<br>\n* Inner Cutouts<br>\n* Non-plated Slots<br>\n* Plated Slotted Holes<br><p>\nNC Drill File: pcbname.XLN<p>\n\nPlease refer to <u>https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files</u> for more information.<p>\nEmail: support@jlcpcb.com<br>\nLast updated 2020/11/17<br>\n"
+Description[en]="\n\n\n<b>JLCPCB 2-layer CAM job for Eagle 7.2 to 8.5.2</b><p>\n\nTested in Eagle 7.2 to 8.5.2<p>\n9 RS-274X Gerber files and 1 EXCELLON file will be generated:<p>\nTop Copper Layer: pcbname.GTL<br>\nTop Silkscreen: pcbname.GTO<br>\nTop Solder Mask: pcbname.GTS<br>\nTop Solder Paste: pcbname.GTP<p>\n\nBottom Copper Layer: pcbname.GBL<br>\nBottom Silkscreen: pcbname.GBO<br>\nBottom Solder Mask: pcbname.GBS<br>\nBottom Solder Paste: pcbname.GBP<p>\n\npcbname.GKO contains:<br>\n* Board Outline<br>\n* Inner Cutouts<br>\n* Non-plated Slots<br>\n* Plated Slotted Holes<br><p>\nNC Drill File: pcbname.XLN<p>\n\nPlease refer to <u>https://support.jlcpcb.com/article/43-how-to-export-eagle-pcb-to-gerber-files</u> for more information.<p>\nEmail: support@jlcpcb.com<br>\nLast updated 2020/11/17<br>\n"
 Section=Sec_1
 Section=Sec_2
 Section=Sec_3
@@ -13,13 +13,14 @@ Section=Sec_10
 
 [Sec_1]
 Name[C]="Board Outline"
+Name[de]="Board Outline"
 Name[en]="Board Outline"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GKO"
+Output="gerber/%N.GKO"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -32,13 +33,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_2]
 Name[C]="Drill File"
+Name[de]="Drill File"
 Name[en]="Drill File"
 Prompt=""
 Device="EXCELLON_24"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.XLN"
+Output="gerber/%N.XLN"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -51,13 +53,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_3]
 Name[C]="Top Copper Layer"
+Name[de]="Top Copper Layer"
 Name[en]="Top Copper Layer"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GTL"
+Output="gerber/%N.GTL"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -70,13 +73,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_4]
 Name[C]="Top Silkscreen"
+Name[de]="Top Silkscreen"
 Name[en]="Top Silkscreen"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GTO"
+Output="gerber/%N.GTO"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -89,13 +93,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_5]
 Name[C]="Top Solder Mask"
+Name[de]="Top Solder Mask"
 Name[en]="Top Solder Mask"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GTS"
+Output="gerber/%N.GTS"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -108,13 +113,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_6]
 Name[C]="Top Solder Paste"
+Name[de]="Top Solder Paste"
 Name[en]="Top Solder Paste"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GTP"
+Output="gerber/%N.GTP"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -127,13 +133,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_7]
 Name[C]="Bottom Copper Layer"
+Name[de]="Bottom Copper Layer"
 Name[en]="Bottom Copper Layer"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GBL"
+Output="gerber/%N.GBL"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -146,13 +153,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_8]
 Name[C]="Bottom Silkscreen"
+Name[de]="Bottom Silkscreen"
 Name[en]="Bottom Silkscreen"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GBO"
+Output="gerber/%N.GBO"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -165,13 +173,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_9]
 Name[C]="Bottom Solder Mask"
+Name[de]="Bottom Solder Mask"
 Name[en]="Bottom Solder Mask"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GBS"
+Output="gerber/%N.GBS"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
@@ -184,13 +193,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_10]
 Name[C]="Bottom Solder Paste"
+Name[de]="Bottom Solder Paste"
 Name[en]="Bottom Solder Paste"
 Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
-Output="%N.GBP"
+Output="gerber/%N.GBP"
 Flags="0 0 0 1 0 1 1"
 Emulate="0"
 Offset="0.0mil 0.0mil"
