@@ -35,6 +35,13 @@ void Stepper::update()
         return;
 
     digitalWrite(mStepPin, HIGH);
+
+    // A4988 datasheet page 6
+    // STEP minimum, HIGH or LOW pulse width 1µs
+    // The orginal code for arduino hasn't a delay here which results in 300ns step width on ESP32 S2 mini
+    for (uint16_t i = 0; i < 30; ++i)
+      NOP();
+
     digitalWrite(mStepPin, LOW);
     mNumSteps--;
 
