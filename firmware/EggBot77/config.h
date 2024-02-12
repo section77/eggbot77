@@ -11,7 +11,7 @@
 #define Y_ENABLE_PIN 1
 
 // Servo
-#define SERVO_PIN 6 // "SpnEn"
+#define SERVO_PIN 6
 
 // EggBot77 doesn't have an engraver or buttons
 #define ENGRAVER_PIN 7 // "SpnDir"

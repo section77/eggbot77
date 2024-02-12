@@ -52,7 +52,7 @@ void EBBHardware::init()
     ledcSetup(LED_BUILTIN_LEDC_CH, 1200, 10);
 
     // attach Servo PWM pin to channel 2
-    ledcAttachPin(SERVO_PIN, 2);
+    ledcAttachPin(SERVO_PIN, SERVO_PIN_LEDC_CH);
     ledcSetup(SERVO_PIN_LEDC_CH, 50, 10);
 }
 
