@@ -115,7 +115,7 @@ chmod +x appimagetool-x86_64.AppImage
 mv Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage
 
 # upload to section77.de
-scp Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage section77.de:/var/www/html/files/
+scp Inkscape-091e20e-EggBot77-x86_64.AppImage section77.de:/var/www/html/files/
 ```
 
 ## Other Projects Parts
