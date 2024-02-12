@@ -80,6 +80,44 @@ individual commands like pen up/down.
 You have to copy the templates and extensions folders to the inkscape/share folder which
 is typically located at C:\programme\inkscape\share
 
+## Inkscape AppImage
+
+The original Inkscape AppImages are missing the python-serial module and thus won't work out of the box.
+
+You'll find an AppImage where we added the modules and extensions here: https://josoansi.de/files/Inkscape-091e20e-EggBot77-x86_64.AppImage
+FIXME: Recreate and upload to section77.de
+
+The above linked image was created on Debian GNU/Linux 12 (bookworm) with
+
+```bash
+# get Inkscape AppImage
+wget -nc https://inkscape.org/de/gallery/item/44616/Inkscape-091e20e-x86_64.AppImage
+chmod +x Inkscape-091e20e-x86_64.AppImage
+
+# extract it
+./Inkscape-091e20e-x86_64.AppImage --appimage-extract
+
+# add pyserial
+wget -nc https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz
+tar xzf pyserial-3.5.tar.gz
+cp -r pyserial-3.5/serial squashfs-root/usr/lib/python3/dist-packages/
+
+# add EggBot77 extensions and template
+cp ./extensions/* squashfs-root/usr/share/inkscape/extensions
+cp ./templates/* squashfs-root/usr/share/inkscape/templates/
+
+# repack the AppImage
+wget -nc https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+chmod +x appimagetool-x86_64.AppImage
+./appimagetool-x86_64.AppImage squashfs-root/
+
+# rename it
+mv Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage
+
+# upload to section77.de
+scp Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage section77.de:/var/www/html/files/
+```
+
 ## Other Projects Parts
 
  * [Eggduino Firmware](https://github.com/section77/EggDuino)
