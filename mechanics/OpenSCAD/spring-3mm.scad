@@ -10,16 +10,22 @@ lochabstand=22;
 dicke=2;
 breite=4;
 
-translate([0,0,-breite/2])auge(7,2);
+difference() {
+  union() {
+    translate([0,0,-breite/2])auge(7,2.5);
+    translate([0,-3.5,0])rotate([0,0,90])
+      rotate_extrude(angle=90, convexity=10)
+        translate([6, 0]) square([dicke,breite],center=true);
+  }
+  translate([0,0,1.01]) cylinder(d=7.01,h=1);
+}
+
 translate([0,lochabstand,-breite/2])auge(8,3.5); // original: 2.4
 hull(){
   translate([-3,lochabstand-1.5,-breite/2])cube([6,0.1,breite]);
   translate([0,lochabstand-8,-breite/2])cylinder(r=1,h=breite);
 }
 
-translate([0,-3.5,0])rotate([0,0,90])
-   rotate_extrude(angle=90, convexity=10)
-       translate([6, 0]) square([dicke,breite],center=true);
 translate([1,-3,0])rotate([0,0,180])
    rotate_extrude(angle=90, convexity=10)
        translate([7, 0]) square([dicke,breite],center=true);
