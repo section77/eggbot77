@@ -40,7 +40,9 @@ void EBBHardware::init()
 
     pinMode(X_ENABLE_PIN, OUTPUT);
     pinMode(Y_ENABLE_PIN, OUTPUT);
+#ifdef ENGRAVER_PIN
     pinMode(ENGRAVER_PIN, OUTPUT);
+#endif
     //mPenServo.attach(SERVO_PIN);
 
     enableMotor(0, false);
@@ -127,14 +129,18 @@ void EBBHardware::setPinOutput(char port, int pin, int value)
 {
     // PO,B,3,0 = disable engraver
     // PO,B,3,1 = enable engraver
+#ifdef ENGRAVER_PIN
     if (port == 'B' && pin == 3) {
         digitalWrite(ENGRAVER_PIN, value);
     }
+#endif
 }
 
 void EBBHardware::setEngraverState(bool state, int power)
 {
+#ifdef ENGRAVER_PIN
     digitalWrite(ENGRAVER_PIN, state);
+#endif
 }
 
 void EBBHardware::setPenState(bool up, short delayMs)

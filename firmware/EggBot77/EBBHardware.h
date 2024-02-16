@@ -34,6 +34,7 @@ protected:
 
     virtual bool getPrgButtonState();
 
+    // only works for ENGRAVER_PIN if available
     virtual void setPinOutput(char port, int pin, int value);
 
     virtual void setEngraverState(bool state, int power);
