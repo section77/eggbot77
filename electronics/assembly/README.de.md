@@ -94,7 +94,7 @@ Auf korrekte Ausrichtung von U2 achten: Der blaue Trimmer muss zum Rand der Plat
 
 **Achtung:** Die A4988 Treiber U3 und U4 sowie der ESP32 wird zerstört, wenn sie eingebaut und die Platine mit 12V eingeschaltet wird, bevor die Ausgangsspannung am Spannungsregler U1 eingestellt wurde.
 
-Daher vor dem Einstecken des Netzteils und dem ersten Einschalten nochmal darauf achten, dass U2, U3 und U4 nicht aufgesteckt sind. Siehe auch das nachfolgende Bild: 
+Daher vor dem Einstecken des Netzteils und dem ersten Einschalten nochmal darauf achten, dass U2, U3 und U4 nicht aufgesteckt sind. Siehe auch das nachfolgende Bild:
 
 ![](18_U1_adjust_output_volatge_A.jpg)
 
@@ -104,9 +104,17 @@ Der Trimmer (roter Pfeil) muss ca. 12.5 mal gegen den Uhrzeigersinn gedreht werd
 
 ### Module aufstecken
 
-Nun Netzteil ausstecken und die Module U2, U3 und U4 aufstecken. An U2 muss die USB-C Buchse an den Rand zeigen.
+Nun Netzteil ausstecken und die Module U2, U3 und U4 aufstecken.
 
-TODO: Ausrichtung U3, U4 explizit zeigen
+An U2 (dem ESP32) muss die USB-C Buchse an den Rand zeigen.
+
+An den A4988 Modulen muss Enable/En zur Beschriftung auf der Platine passen, der Trimmer (mit dem Kreuzschlitz) zeigt dann in Richtung der Servo Pfostenleiste (auch auf dem übernächsten Bild zu stehen).
+
+Die Beschriftung auf der Rückseite der A4988 Platine steht dann auf dem Kopf, davon darf man sich nicht abschrecken lassen.
+
+Wichtig ist, dass der rot umkreiste "Enable" Pin zum "En" auf der Platine passt-
+
+![](19_A4988_carrier_variants.jpg)
 
 ### Servo und Schrittmotoren anstecken
 
@@ -114,9 +122,18 @@ Die orange Leitung am SG90 muss zur Platine "PWM" ausgerichtet sein. Andere Serv
 
 Die Schrittmotoren mit den Leitungen verbinden, die Feritte zu der Platine hin.
 
+![](20_hardware_test.jpg)
+
 ### Hardware Testprogramm flashen
 
-Es empfiehlt sich zuerst das Projekt ... Hardwaretest zu programmieren...
-Um die Funktion der Komponenten vorab zu testen...
+Wenn man den ESP32 das erste Mal mit der arduino IDE flashen möchte, muss man ihn in den DFU Modus (Device Firmware Upgrade) bringen:
+* Taster 0 am ESP32 drücken und festhalten (untere linke Ecke unter dem USB-C Stecker)
+* Taster Reset (linke obere Ecke) drücken
+* Taster 0 noch kurz halten und dann loslassen
 
-blabla Taster beim ersten mal flashen drücken usw...
+Quelle: https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_arduino_s2.html
+
+Es empfiehlt sich zuerst das Arduino Projekt ../../firmware/hardware_test/hardware_ino
+zu flashen, um die korrekte Funktion der Komponenten vorab zu testen.
+
+Der Servo läuft dabei langsam von der Minimumposition zur Maximumposition, beide Schrittmotoren drehen mit unterschiedlichen Geschwindigkeiten abwechselnd in beide Richtungen und die blaue onboard LED blinkt mit 1Hz.
