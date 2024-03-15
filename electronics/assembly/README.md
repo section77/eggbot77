@@ -1,8 +1,8 @@
 ## eggbot77 Aufbauanleitung
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbott77/blob/master/README.md)
-[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbott77/blob/master/README.de.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbott77/blob/master/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbott77/blob/master/README.md)
 
-Hinweis: Die Stiftleisten JP1 und JP4 werden für den Easterhegg-Workshop nicht verwendet und sind dafür gedacht falls jemand Erweiterungen anbringen möchte oder die Platine außerhalb der Osterzeit für andere Projekte verwenden will.
+Hinweis: Die Stiftleisten JP1 und JP4 werden für den Easterhegg-Workshop nicht verwendet und sind dafür gedacht, falls jemand Erweiterungen anbringen möchte oder die Platine außerhalb der Osterzeit für andere Projekte verwenden will.
 
 Wir haben versucht den Aufbau der Platine so detailiert wie nötig mit vielen Bildern zu beschreiben, so dass auch am Lötkolben wenig erfahrene Bastler zurecht kommen. Eine Einführung ins grundsätzliche Löten von Elektronikbauteilen enthält diese Anleitung nicht. Wenn es anfängt nach gebratenem Hühnchen zu riechen, hälst du den Lötkolben verkehrt herum ;-)
 
@@ -16,7 +16,7 @@ Für den Easterhegg-Workshop empfehlen wir SJ7 zu schließen.
 
 ### Lötbrücken für microstepping schließen
 
-Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 geschlossen). Wenn Du einen anderen Schrittmtor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken offen alssen und erst ganz am Ende schließen.
+Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 geschlossen). Wenn Du einen anderen Schrittmtor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken zunächst offen lassen und erst ganz am Ende schließen.
 
 Für den Easterhegg-Workshop empfehlen wir alle 6 Lötbrücken zu schließen.
 
@@ -44,10 +44,10 @@ Dann zuerst jeweils 1 Pin anlöten, nochmals den korrekten Sitz prüfen und dann
 
 ### Buchsenleiten für U3 und U4
 
-Es empfiehlt sich als Hilfmittel einen A4988 Treiber einzustecken um die Buchsenleisten in Position zu halten. Die JST Stecker X2 und X3 klemmen in den Löchern und können parallel eingesetzt werden.
+Es empfiehlt sich als Hilfsmittel einen A4988 Treiber einzustecken um die Buchsenleisten in Position zu halten. Die JST Stecker X2 und X3 klemmen in den Löchern und können parallel eingesetzt werden.
 ![](07_U3_solder_socket_strips.jpg)
 
-Auf dem Bild sieht man die durchgelöteten Buchsenleisten für U2, U3, U3, X2 und X3
+Auf dem Bild sieht man die durchgelöteten Buchsenleisten für U2, U3, U4, X2 und X3
 ![](08_soldered_socket_rows.jpg)
 
 ### Schottky Diode D1 einlöten
@@ -78,27 +78,27 @@ Wie vorher gezeigt mit dem Seitenschneider 4 Stifte und 4 Buchsen von den große
 
 ### Stifte an U1 anlöten
 
-Es empfiehlt sich drei Stifte ausgerichtet in die bestehenden Buchsenleisten einzustecken und auf der LM2596 Platine anzulöten. Dies hielft bei der senkrechten Ausrichtung der Pins. Anschließend um 180° drehen und verbleibenden Pin anlöten.
+Es empfiehlt sich drei Stifte ausgerichtet in die bestehenden Buchsenleisten einzustecken und auf der LM2596 Platine anzulöten. Dies hilft bei der senkrechten Ausrichtung der Pins. Anschließend um 180° drehen und verbleibenden Pin anlöten.
 
 ![](16_U1_solder_pins.jpg)
 
 ### Buchsen an U1 anlöten
 
-Auch hier ist es empfehlenswert die Vier vorher zugeschnittenen Buchsen ausgerichtet auf die Stifte aufzusetzen, dann die Platine zu wenden und dann die 4 Buchsen anzulöten.
+Auch hier ist es empfehlenswert die 4 vorher zugeschnittenen Buchsen ausgerichtet auf die Stifte aufzusetzen, dann die Platine zu wenden und dann die 4 Buchsen anzulöten.
 
 ![](17_U1_place_sockets.jpg)
 
-### Ausgangsspannung U1 einstellen
+### Ausgangsspannung an U1 einstellen
 
-Auf korrekte Ausrichtung von U2 achten: Der blaue Trimmer muss zum Rand der Platine zeigen, Die Ausrichtung der Aufschrift "IN+, OUT+" usw. muss zur Ausrichtung der unteren Platine "JP1" passen. Siehe auch nächstes Bild.
+Auf korrekte Ausrichtung des Moduls achten: Der blaue Trimmer muss zum Rand der Platine zeigen. Die Ausrichtung der Aufschrift "IN+, OUT+" usw. muss zur Ausrichtung der unteren Platine "JP1" passen. Siehe auch nächstes Bild.
 
-**Achtung:** Die A4988 Treiber U3 und U4 sowie der ESP32 wird zerstört, wenn sie eingebaut und die Platine mit 12V eingeschaltet wird, bevor die Ausgangsspannung am Spannungsregler U1 eingestellt wurde.
+**Achtung:** Die A4988 Treiber(U3 und U4) sowie der ESP32(U1) wird zerstört, wenn sie eingebaut sind und die Platine mit 12V betrieben wird, bevor die Ausgangsspannung am Spannungsregler U1 eingestellt wurde.
 
 Daher vor dem Einstecken des Netzteils und dem ersten Einschalten nochmal darauf achten, dass U2, U3 und U4 nicht aufgesteckt sind. Siehe auch das nachfolgende Bild:
 
 ![](18_U1_adjust_output_volatge_A.jpg)
 
-Der Trimmer (roter Pfeil) muss ca. 12.5 mal gegen den Uhrzeigersinn gedreht werden, um die 5V am Ausgang einzustellen. Die Ausgangsspannung fängt erst nach ca. 7 Linksdrehungen an sich zu ändern, also bitte nicht vorzeitig aufgeben...
+Der Trimmer (roter Pfeil) muss ca. 12.5 mal gegen den Uhrzeigersinn gedreht werden, um die 5V am Ausgang einzustellen. Die Ausgangsspannung fängt erst nach ca. 7 Linksdrehungen an, sich zu ändern, also bitte nicht vorzeitig aufgeben...
 
 ![](18_U1_adjust_output_volatge_B.jpg)
 
@@ -106,34 +106,38 @@ Der Trimmer (roter Pfeil) muss ca. 12.5 mal gegen den Uhrzeigersinn gedreht werd
 
 Nun Netzteil ausstecken und die Module U2, U3 und U4 aufstecken.
 
-An U2 (dem ESP32) muss die USB-C Buchse an den Rand zeigen.
+An U2 (dem ESP32) muss die USB-C Buchse "nach links" zum Rand zeigen.
 
-An den A4988 Modulen muss Enable/En zur Beschriftung auf der Platine passen, der Trimmer (mit dem Kreuzschlitz) zeigt dann in Richtung der Servo Pfostenleiste (auch auf dem übernächsten Bild zu stehen).
+An den A4988 Modulen muss Enable/En zur Beschriftung auf der Platine passen. Der Trimmer (mit dem Kreuzschlitz) zeigt dann in Richtung der Servo Pfostenleiste (auch auf dem übernächsten Bild zu sehen).
 
 Die Beschriftung auf der Rückseite der A4988 Platine steht dann auf dem Kopf, davon darf man sich nicht abschrecken lassen.
 
-Wichtig ist, dass der rot umkreiste "Enable" Pin zum "En" auf der Platine passt-
+Wichtig ist, dass der rot umkreiste "Enable" Pin zum "En" auf der Platine passt.
 
 ![](19_A4988_carrier_variants.jpg)
 
 ### Servo und Schrittmotoren anstecken
 
-Die orange Leitung am SG90 muss zur Platine "PWM" ausgerichtet sein. Andere Servos können andere Farbkodierungen haben.
+Die orange Leitung am SG90 muss zum Pin "PWM" ausgerichtet sein. Andere Servos können andere Farbkodierungen haben.
 
-Die Schrittmotoren mit den Leitungen verbinden, die Feritte zu der Platine hin.
+Die Schrittmotoren mit den Leitungen verbinden, die Ferrite (die schwarzen Röhrchen) zu der Platine hin.
 
 ![](20_hardware_test.jpg)
 
-### Hardware Testprogramm flashen
+### Hardware mit Testprogramm prüfen
 
-Wenn man den ESP32 das erste Mal mit der arduino IDE flashen möchte, muss man ihn in den DFU Modus (Device Firmware Upgrade) bringen:
-* Taster 0 am ESP32 drücken und festhalten (untere linke Ecke unter dem USB-C Stecker)
-* Taster Reset (linke obere Ecke) drücken
+Wenn man den ESP32 das erste Mal mit der arduino IDE programmieren möchte, muss man ihn in den DFU Modus (Device Firmware Upgrade Mode) bringen:
+* Taster 0 am ESP32 drücken und festhalten (untere linke Ecke, mit "0" beschriftet)
+* Taster Reset (linke obere Ecke, mit "RST" beschriftet) drücken
 * Taster 0 noch kurz halten und dann loslassen
 
 Quelle: https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_arduino_s2.html
 
-Es empfiehlt sich zuerst das Arduino Projekt ../../firmware/hardware_test/hardware_ino
-zu flashen, um die korrekte Funktion der Komponenten vorab zu testen.
+Es empfiehlt sich zuerst das [hardware_test Arduino Projekt](../../firmware/hardware_test/hardware_test.ino)
+zu programmieren, um die korrekte Funktion der Komponenten vorab zu testen.
 
 Der Servo läuft dabei langsam von der Minimumposition zur Maximumposition, beide Schrittmotoren drehen mit unterschiedlichen Geschwindigkeiten abwechselnd in beide Richtungen und die blaue onboard LED blinkt mit 1Hz.
+
+Wenn das funktioniert, steht dem Programmieren der richtigen [EggBot77 firmware](../../firmware/EggBot77/EggBot77.ino) zur Kommunikation mit dem Inkscape plugin nichts mehr im Wege.
+
+Weiter mit der [Installation des Inkscape Plugins](../../inkscape_1.x_extension/README.md)
