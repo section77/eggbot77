@@ -21,5 +21,4 @@ void loop()
       led_pwm_val = 0x3FF - led_pwm_val;
     ledcWrite(LED_BUILTIN_LEDC_CH, led_pwm_val);
   }
-    //ledcWrite(2, 50); // Servo 10bit
 }

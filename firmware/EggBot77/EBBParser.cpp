@@ -703,5 +703,5 @@ above.
 */
 void EBBParser::parseV()
 {
-    mStream.print("EBBv13_and_above Protocol emulated by Eggduino-Firmware V1.x AW\r\n");
+    mStream.print("EBBv13_and_above Protocol emulated by EggBot77-Firmware\r\n");
 }
