@@ -21,3 +21,6 @@ wget -nc https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_
 # Holbuchsen
 wget -nc https://www.pollin.de/productdownloads/D452316D.PDF -O D452316D_2_1_mm.pdf
 wget -nc https://www.pollin.de/productdownloads/D451810D.PDF -O D451810D_2_5_mm.pdf
+
+# MINEBEA stepper, 17PM-K374BN01CN, 10,4V/0,33A/1,8°
+wget -nc https://www.pollin.de/productdownloads/D310690D.PDF -O Minebea_stepper_D310690D.pdf
