@@ -49,6 +49,11 @@ Vermutlich https://www.roboter-bausatz.de/p/sg90-9g-micro-servomotor
 
 Pollin Stepper 94-310690
 
+## Levelshifter
+
+* https://learn.sparkfun.com/tutorials/bi-directional-logic-level-converter-hookup-guide/all
+* https://www.digikey.de/de/blog/logic-level-shifting-basics
+
 ## Ähnliches Projekt
 
 https://content.instructables.com/FQ1/O4B9/KTWY3YCQ/FQ1O4B9KTWY3YCQ.jpg
