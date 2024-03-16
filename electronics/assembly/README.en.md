@@ -1,6 +1,6 @@
 ## eggbot77 assembly instructions
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbott77/blob/master/README.en.md)
-[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbott77/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/electronics/assembly/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/electronics/assembly/README.md)
 
 Note: The pin headers JP1 and JP4 are not used for the Easterhegg workshop and are intended for use if someone wants to add extensions or use the board for other projects outside the Easter period.
 
@@ -16,7 +16,7 @@ For the Easterhegg workshop we recommend closing SJ7.
 
 ### Close solder jumpers for microstepping
 
-The Eggbot77 firmware assumes that microstepping is active on the A4988 driver 1/16 (all three solder jumpers MS1-MS3 closed). If you want to use a stepper motor other than the included Minebea 17PM-K374BN01CN or want to measure and set the stepper motor current, you should leave the solder bridges open at first and only close them at the very end.
+The Eggbot77 firmware assumes that microstepping is active on the A4988 driver 1/16 (all three solder jumpers MS1-MS3 on both drivers closed). If you want to use a stepper motor other than the included Minebea 17PM-K374BN01CN or want to measure and set the stepper motor current, you should leave the solder bridges open at first and only close them at the very end.
 
 We recommend closing all 6 solder bridges for the Easterhegg workshop.
 
@@ -65,14 +65,14 @@ After placement, cut to the appropriate length. Cutting off the legs before sold
 
 ### Prepare capacitors
 
-Important: Ensure correct alignment. The long leg on the capacitor must point to the + symbol on the circuit board, the white line with "-" on the capacitor points to the edge.
+Important: Ensure correct alignment. The long leg on the capacitor must point to the + symbol on the circuit board, the white line with "-" on the capacitor points to the edge of the PCB.
 
 ![](13_C1_C2_prepare_capacitors.jpg)
 ![](14_C1_C2_solder_capacitors.jpg)
 
 ### Prepare pins and sockets for U1
 
-Cut off 4 pins and 4 bushes from the large strips using the side cutters as shown above.
+Cut off 4 pins and 4 sockets from the large strips using the side cutters as shown above.
 
 ![](15_U1_prepared_sockets.jpg)
 

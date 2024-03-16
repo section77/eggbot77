@@ -1,6 +1,6 @@
 ## eggbot77 Aufbauanleitung
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbott77/blob/master/README.en.md)
-[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbott77/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/electronics/assembly/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/electronics/assembly/README.md)
 
 Hinweis: Die Stiftleisten JP1 und JP4 werden für den Easterhegg-Workshop nicht verwendet und sind dafür gedacht, falls jemand Erweiterungen anbringen möchte oder die Platine außerhalb der Osterzeit für andere Projekte verwenden will.
 
@@ -16,7 +16,7 @@ Für den Easterhegg-Workshop empfehlen wir SJ7 zu schließen.
 
 ### Lötbrücken für microstepping schließen
 
-Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 geschlossen). Wenn Du einen anderen Schrittmtor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken zunächst offen lassen und erst ganz am Ende schließen.
+Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 an beiden Treibern geschlossen). Wenn Du einen anderen Schrittmtor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken zunächst offen lassen und erst ganz am Ende schließen.
 
 Für den Easterhegg-Workshop empfehlen wir alle 6 Lötbrücken zu schließen.
 
