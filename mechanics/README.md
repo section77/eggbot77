@@ -13,9 +13,12 @@ Most of the files have been gathered from the interwebz:
 
 [schuetzi99](https://www.thingiverse.com/schuetzi99) has provided a remix which replaces the bought metal spring with a printed one and fitting toolmount and penarm (licensed under CC BY-NC-SA-4.0):
 - toolmount.stl ([OpenSCAD](OpenSCAD/toolmount.scad))
-- spring-3mm.stl (modified by me to allow for a 3mm screw, [OpenSCAD](OpenSCAD/spring-3mm.scad))
+- spring-3mm.stl (modified by me to allow for a 3mm bolt, [OpenSCAD](OpenSCAD/spring-3mm.scad))
 - penarm-stronger.stl (modified by me to strengthen the arms holding the servo, [OpenSCAD](OpenSCAD/penarm-stronger.scad))
 He also provided his files in OpenSCAD format which made modifications dead simple :)
+
+[Smuk3D](https://www.thingiverse.com/smuk3d) has designed a knob for the M4 bolt that fixes the pen:
+- nut_knob_v1_5_1_M4.stl ([OpenSCAD](OpenSCAD/nut_knob_v1_5_1_M4.scad))
 
 I have designed two new files for holding the egg (print in TPU) replacing the original PLA ones using suction cups:
 - tpu-eierhalter-lagerseite.stl
