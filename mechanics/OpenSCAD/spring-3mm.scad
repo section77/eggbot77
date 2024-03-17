@@ -2,6 +2,7 @@
 // Eggbot remix/ extension
 // License: by schuetzi99 is licensed under the Creative Commons - Attribution - Non-Commercial - Share Alike license.
 // 
+// 2024 - bruder-jo: cleared drill hole :)
 // 2023 - justin@justinotherguy.org: enlarged drill hole to accomodate for bigger screws
 
 $fn=50;
@@ -22,7 +23,7 @@ difference() {
 
 translate([0,lochabstand,-breite/2])auge(8,3.5); // original: 2.4
 hull(){
-  translate([-3,lochabstand-1.5,-breite/2])cube([6,0.1,breite]);
+  translate([-3,lochabstand-1.9,-breite/2])cube([6,0.1,breite]);
   translate([0,lochabstand-8,-breite/2])cylinder(r=1,h=breite);
 }
 
