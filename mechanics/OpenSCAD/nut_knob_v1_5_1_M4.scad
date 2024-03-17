@@ -16,7 +16,7 @@
 part = "clamp"; // [hex,simple,cylindrical,clamp,rounded,wing]
 
 //across flats (M3 = 5.42, Allen = 6.35)
-nut_width = 6.96;
+nut_width = 6.5;
 nut_thickness = 2.6;
 
 //of knob
@@ -97,7 +97,7 @@ union()
 	
 			for(n=[0:5])
 			translate([0,0,hlist[n]])
-			cylinder(r1=(get_diameter_1()+rlist[n])/2,r2=(get_diameter_1()+rlist[n+1])/2,h=hlist[n+1]-hlist[n],$fn=60);
+			cylinder(r1=(get_diameter_1()+rlist[n])/2,r2=(get_diameter_1()+rlist[n+1])/2,h=hlist[n+1]-hlist[n],$fn=100);
 		}
 	
 		if(get_screw_hole_diameter()>0&&screw_hole_length>0)
