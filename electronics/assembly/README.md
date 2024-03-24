@@ -122,6 +122,8 @@ Die orange Leitung am SG90 muss zum Pin "PWM" ausgerichtet sein. Andere Servos k
 
 Die Schrittmotoren mit den Leitungen verbinden, die Ferrite (die schwarzen Röhrchen) zu der Platine hin.
 
+X3 (im Bild der obere der beiden Anschlüsse) bewegt den Stift, X2 (naja - das ist dann wohl der untere der beiden :D ) rotiert das Ei.
+
 ![](20_hardware_test.jpg)
 
 ### Hardware mit Testprogramm prüfen

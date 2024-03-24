@@ -122,6 +122,8 @@ The orange wire on the SG90 must be aligned with the "PWM" pin. Other servos may
 
 Connect the stepper motors to the cables, the ferrites (the black tubes) to the circuit board.
 
+X3 (the top one of the two connectors on the picture) moves the pen, X2 (well - that would be the bottom one of the two, then :D ) rotates the egg.
+
 ![](20_hardware_test.jpg)
 
 ### Check hardware with test program
