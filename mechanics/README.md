@@ -15,7 +15,8 @@ Most of the files have been gathered from the interwebz:
 - toolmount.stl ([OpenSCAD](OpenSCAD/toolmount.scad))
 - spring-3mm.stl (modified by me to allow for a 3mm bolt, [OpenSCAD](OpenSCAD/spring-3mm.scad))
 - penarm-stronger.stl (modified by me to strengthen the arms holding the servo, [OpenSCAD](OpenSCAD/penarm-stronger.scad))
-He also provided his files in OpenSCAD format which made modifications dead simple :)
+- nema-eggbot77-mount.stl ([OpenSCAD](OpenSCAD/nema-eggbot77-mount.scad)) (schuetzi99's version was for Arduino Uno; I have modified this to fit our own ESP32-based PCB; bruder-jo made the fit more universal to allow for different variants of nema17 steppers and also allows for more tolerance of different printers).
+schuetzie99 also provided his files in OpenSCAD format which made modifications dead simple :)
 
 [Smuk3D](https://www.thingiverse.com/smuk3d) has designed a knob for the M4 bolt that fixes the pen:
 - nut_knob_v1_5_1_M4.stl ([OpenSCAD](OpenSCAD/nut_knob_v1_5_1_M4.scad))
@@ -24,7 +25,6 @@ I have designed two new files for holding the egg (print in TPU) replacing the o
 - tpu-eierhalter-lagerseite.stl
 - tpu-eierhalter-stiftseite.stl
 
-Optionally you can also print the pads for the feet (print 2 each in TPU):
-- tpu-pad-15x13.stl
-- tpu-pad-16x15.stl
-- tpu-pad-19x15.stl
+Optionally you can also print the pads for the feet (print in TPU):
+- tpu-pad-16x15.stl (print 8)
+- tpu-pad-19x15.stl (print 2)
