@@ -1,4 +1,6 @@
 In the tradition of a popular manufacturer of kids toys located in the city Billund, Denmark (whose name we will intentionally omit here for reasons) we have divided the manual in several assembly groups:
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/mechanics/assembly/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/mechanics/assembly/README.md)
 
 ## assembly group 1: fixation of the egg
 
