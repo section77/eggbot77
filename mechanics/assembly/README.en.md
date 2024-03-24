@@ -16,6 +16,7 @@ Add one of the M5 nuts on the flat(!) side of the tailstock holder
 
 Add the bearing (625ZZ) and the second of the M5 nuts to the rod.
 ![](eb77-eh21_baugruppe-1-3-IMG_4942.JPG)
+
 Hints: 
 * the second nut should be flush with the end of the threaded rod, next to the bearing which should be next to the nut you inserted first
 * make sure the two nuts hold the bearing firmly. That will take some artistic degrees of freedom from you eggbot77, though ;)
@@ -30,6 +31,7 @@ Oh - we didn't count putting the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IM
 Don't get a drink just yet - this will be a very quick one.
 Insert the M4 bolt into the [nut knob](eb77-eh21_bauteil-04-IMG_4899.JPG)
 ![](eb77-eh21_baugruppe-2a-IMG_4934.JPG)
+
 There you go - assembly group 2a is done, too!
 
 ## assembly group 2b: pen holder arm (integrates assembly group 2a)
@@ -37,6 +39,7 @@ There you go - assembly group 2a is done, too!
 This is going to be a bit trickier. But do not worry. You'll be fine.
 Insert the M3x20 bolt with the cylinder head through the hole in the [toolmount](eb77-eh21_bauteil-05-IMG_4897.JPG) attaching the [spring](eb77-eh21_bauteil-06-IMG_4902.JPG) to it.
 Hints: give the following picture a close look and you'll see which of the many ways this could be done is the only correct one.
+
 ![](eb77-eh21_baugruppe-2b-IMG_4935.JPG)
 
 Now take the M3x30 bolt to attach the [penarm](eb77-eh21_bauteil-07-IMG_4900.JPG) to the toolmount.
@@ -46,10 +49,12 @@ Next you insert the M4 but into the cutout in the toolmount and screw assemby gr
 ![](eb77-eh21_baugruppe-2b-IMG_4951.JPG)
 
 Getting more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
+
 ![](eb77-eh21_baugruppe-2b-IMG_4955.JPG)
 
 Fix the servo arm with the single 3mm screw.
 ![](eb77-eh21_baugruppe-2b-IMG_4957.JPG)
+
 Hint: you might need to re-adjust the angle at which the arm is fixed to the servo. So don't worry too much about that now.
 
 One more special screw (the smallest one that was provided to you as part of the kit) will fix the open end of the spring to the servo arm. Use the last of the holes inside the arm.
