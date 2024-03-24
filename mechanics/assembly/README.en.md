@@ -1,3 +1,4 @@
+## eggbot77 assembly instructions for mechanics
 In the tradition of a popular manufacturer of kids toys located in the city Billund, Denmark (whose name we will intentionally omit here for reasons) we have divided the manual in several assembly groups:
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/mechanics/assembly/README.en.md)
 [![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/mechanics/assembly/README.md)
@@ -6,7 +7,7 @@ In the tradition of a popular manufacturer of kids toys located in the city Bill
 
 Tools needed: TBD
 
-Screw the threaded rod (M5) and insert it half way through the tailstock holder (aka: Bauteil 1)
+Screw the threaded rod (M5) and insert it half way through the tailstock holder (aka: [Bauteil 1](eb77-eh21_bauteil-01-IMG_4891.JPG))
 ![](eb77-eh21_baugruppe-1-1-IMG_4937.JPG)
 
 Add one of the M5 nuts on the flat(!) side of the tailstock holder
