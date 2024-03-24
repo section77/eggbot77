@@ -22,8 +22,8 @@ schuetzie99 also provided his files in OpenSCAD format which made modifications 
 - nut_knob_v1_5_1_M4.stl ([OpenSCAD](OpenSCAD/nut_knob_v1_5_1_M4.scad))
 
 I have designed two new files for holding the egg (print in TPU) replacing the original PLA ones using suction cups:
-- tpu-eierhalter-lagerseite.stl
-- tpu-eierhalter-stiftseite.stl
+- tpu-eierhalter-lagerseite.stl ([OpenSCAD](OpenSCAD/tpu-eierhalter.scad); set "lagerseite=true") (thx to bruder-jo for improving printability!)
+- tpu-eierhalter-stiftseite.stl ([OpenSCAD](OpenSCAD/tpu-eierhalter.scad); set "lagerseite=false")
 
 Optionally you can also print the pads for the feet (print in TPU):
 - tpu-pad-16x15.stl (print 8)
