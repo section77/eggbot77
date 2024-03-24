@@ -7,7 +7,7 @@ In the tradition of a popular manufacturer of kids toys located in the city Bill
 
 Tools needed: TBD
 
-Screw the threaded rod (M5) and insert it half way through the tailstock holder (aka: [Bauteil 1](eb77-eh21_bauteil-01-IMG_4891.JPG))
+Screw the threaded rod (M5) and insert it half way through the [tailstock holder](eb77-eh21_bauteil-01-IMG_4891.JPG)
 ![](eb77-eh21_baugruppe-1-1-IMG_4937.JPG)
 
 Add one of the M5 nuts on the flat(!) side of the tailstock holder
@@ -16,23 +16,23 @@ Add one of the M5 nuts on the flat(!) side of the tailstock holder
 Add the bearing (625ZZ) and the second of the M5 nuts to the rod.
 ![](eb77-eh21_baugruppe-1-3-IMG_4942.JPG)
 
-Now only the faucet (aka: Bauteil 2) is missing - ready is your first assembly group! You're doing great! ;)
+Now only the [faucet](eb77-eh21_bauteil-02-IMG_4895.JPG) is missing - ready is your first assembly group! You're doing great! ;)
 ![](eb77-eh21_baugruppe-1-IMG_4948.JPG)
 Hint: make sure the two nuts hold the bearing firmly. That will take some artistic degrees of freedom from you eggbot77, though ;)
 
-Oh - we didn't count putting the "Eierhalter Lagerseite" (you guessed it: Bauteil 3) to the bearing.
+Oh - we didn't count putting the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) to the bearing.
 
 ## assembly group 2a: fixation of the pen
 
 Don't get a drink just yet - this will be a very quick one.
-Insert the M4 bolt into the nut knob (aka: Bauteil 4)
+Insert the M4 bolt into the [nut knob](eb77-eh21_bauteil-04-IMG_4899.JPG)
 ![](eb77-eh21_baugruppe-2a-IMG_4934.JPG)
 There you go - assembly group 2a is done, too!
 
 ## assembly group 2b: pen holder arm (integrates assembly group 2a)
 
 This is going to be a bit trickier. But do not worry. You'll be fine.
-Insert the M3x20 bolt through the hole in the toolmount (Bauteil 5) attaching the spring (Bauteil 6) to it.
+Insert the M3x20 bolt through the hole in the [toolmount](eb77-eh21_bauteil-05-IMG_4897.JPG) attaching the spring (Bauteil 6) to it.
 Hints: give the picture a close look and you'll see which of the many ways this could be done is the only correct one.
 ![](eb77-eh21_baugruppe-2b-IMG_4935.JPG)
 
