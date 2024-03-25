@@ -49,6 +49,7 @@ Next you insert the M4 nut into the cutout in the toolmount and screw assemby gr
 ![](eb77-eh21_baugruppe-2b-IMG_4951.JPG)
 
 Getting even more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
+
 ![](eb77-eh21_baugruppe-2b-IMG_4955.JPG)
 
 Fix the servo arm with the single 3mm screw.

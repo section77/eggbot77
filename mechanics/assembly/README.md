@@ -90,6 +90,7 @@ Füge jetzt den zweiten Stepper hinzu. Du kannst die Höhe später anpassen, abe
 ![](eb77-eh21_aufbau-8-IMG_4959.JPG)
 
 Zum Schluss fügst du die vormontierte [Baugruppe 2b](eb77-eh21_baugruppe-2b-IMG_4960.JPG) und die [Baugruppe 3, alias: die Platine](eb77-eh21_baugruppe-3-IMG_4952.JPG) hinzu und bist mit dem Mechanikteil fertig - Glückwunsch!
+
 ![](eb77-eh21_aufbau-9-IMG_4961.JPG)
 ![](eb77-eh21_aufbau-10-IMG_4963.JPG)
 ![](eb77-eh21_aufbau-11-IMG_4965.JPG)
