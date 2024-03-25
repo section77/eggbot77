@@ -72,28 +72,25 @@ You are now ready to assemble your EggBot77! Take the 2 shorter (!) ones of the 
 Now insert the countersunk M3x20 to the top of the box and secure it with the remaining M3 nut.
 ![](eb77-eh21_aufbau-2-IMG_4932.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4884.JPG) 
+Put the [stepperholder for the pen](eb77-eh21_aufbau-3-IMG_4884.JPG) (easily identified by its long vertical holes that allow for height adjustments of the stepper - and is one of the improvements of this year's model, BTW) onto the shorter pair of rods.
 ![](eb77-eh21_aufbau-3-IMG_4938.JPG)
 
-![](eb77-eh21_bauteil-12-IMG_4893.JPG)
+The other end of these rods go into the [pen stepper holder foot](eb77-eh21_bauteil-12-IMG_4893.JPG).
 ![](eb77-eh21_aufbau-4-IMG_4943.JPG)
 
-![](eb77-eh21_bauteil-13-IMG_4885.JPG) 
+The [rotational stepper holder](eb77-eh21_bauteil-13-IMG_4885.JPG) goes to the left end of the longer pair of rods; that's when the pen stepper holder is on the far side of the bot. Starting to take shape, isn't it?
 ![](eb77-eh21_aufbau-5-IMG_4949.JPG)
 
-![](eb77-eh21_bauteil-14-IMG_4894.JPG) 
+Now add the preassembled [assembly group 1](eb77-eh21_baugruppe-1-3-IMG_4942.JPG) and the [rotational stepper holder foot](eb77-eh21_bauteil-14-IMG_4894.JPG) on the right side of the longer pair of rods.
 ![](eb77-eh21_aufbau-6-IMG_4954.JPG)
 
-![](eb77-eh21_bauteil-15-IMG_4910.JPG)
+Time to add the first stepper (make sure you take the black one)(just kiddin') and the [Eierhalter Stiftseite](eb77-eh21_bauteil-15-IMG_4910.JPG) to the assembly.
 ![](eb77-eh21_aufbau-7-IMG_4956.JPG)
 
+Add the second stepper now. You can adjust the height later, just fix it somewhere in the middle for now.
 ![](eb77-eh21_aufbau-8-IMG_4959.JPG)
 
+Finally: add the preassambled [assembly group 2b](eb77-eh21_baugruppe-2b-IMG_4960.JPG) and the [assembly group 3, aka: the PCB](eb77-eh21_baugruppe-3-IMG_4952.JPG) and you're done with the mechanics part - congrats!
 ![](eb77-eh21_aufbau-9-IMG_4961.JPG)
-
 ![](eb77-eh21_aufbau-10-IMG_4963.JPG)
-
 ![](eb77-eh21_aufbau-11-IMG_4965.JPG)
-
-
-
