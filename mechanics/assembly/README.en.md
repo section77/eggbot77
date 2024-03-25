@@ -44,17 +44,17 @@ Hints: give the following picture a close look and you'll see which of the many 
 Now take the M3x30 bolt to attach the [penarm](eb77-eh21_bauteil-07-IMG_4900.JPG) to the toolmount.
 ![](eb77-eh21_baugruppe-2b-IMG_4941.JPG)
 
-Next you insert the M4 but into the cutout in the toolmount and screw assemby group 2a into it.
+Next you insert the M4 nut into the cutout in the toolmount and screw assemby group 2a into it.
 ![](eb77-eh21_baugruppe-2b-IMG_4951.JPG)
 
-Getting more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
+Getting even more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
 
 ![](eb77-eh21_baugruppe-2b-IMG_4955.JPG)
 
 Fix the servo arm with the single 3mm screw.
 ![](eb77-eh21_baugruppe-2b-IMG_4957.JPG)
 
-Hint: you might need to re-adjust the angle at which the arm is fixed to the servo. So don't worry too much about that now.
+Hint: you might need to re-adjust the angle at which the arm is fixed to the servo later. So don't worry too much about that now.
 
 One more special screw (the smallest one that was provided to you as part of the kit) will fix the open end of the spring to the servo arm. Use the last of the holes inside the arm.
 ![](eb77-eh21_baugruppe-2b-IMG_4960.JPG)
