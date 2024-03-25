@@ -48,7 +48,6 @@ Als Nächstes setzt Du die M4-Mutter in die Aussparung der Werkzeughalterung ein
 ![](eb77-eh21_baugruppe-2b-IMG_4951.JPG)
 
 Jetzt wird es noch etwas kniffliger: Befestige das blaue Mini-Servo mit den 2 Miniaturschrauben. Setze die Schrauben von der Servoseite her ein, so dass das Ende im Stiftarm sitzt.
-
 ![](eb77-eh21_baugruppe-2b-IMG_4955.JPG)
 
 Befestige den Servoarm mit der einzelnen 3mm-Schraube.
@@ -84,13 +83,13 @@ Füge nun die vormontierte [Baugruppe 1](eb77-eh21_baugruppe-1-3-IMG_4942.JPG) u
 ![](eb77-eh21_aufbau-6-IMG_4954.JPG)
 
 Es ist an der Zeit, den ersten Schrittmotor (achte darauf, dass Du den schwarzen nimmst) (nur ein Scherz) und den [Eierhalter für die Stiftseite](eb77-eh21_bauteil-15-IMG_4910.JPG) hinzuzufügen.
+
 ![](eb77-eh21_aufbau-7-IMG_4956.JPG)
 
 Füge jetzt den zweiten Stepper hinzu. Du kannst die Höhe später anpassen, aber fixiere ihn erst einmal irgendwo in der Mitte.
 ![](eb77-eh21_aufbau-8-IMG_4959.JPG)
 
 Zum Schluss fügst du die vormontierte [Baugruppe 2b](eb77-eh21_baugruppe-2b-IMG_4960.JPG) und die [Baugruppe 3, alias: die Platine](eb77-eh21_baugruppe-3-IMG_4952.JPG) hinzu und bist mit dem Mechanikteil fertig - Glückwunsch!
-
 ![](eb77-eh21_aufbau-9-IMG_4961.JPG)
 ![](eb77-eh21_aufbau-10-IMG_4963.JPG)
 ![](eb77-eh21_aufbau-11-IMG_4965.JPG)
