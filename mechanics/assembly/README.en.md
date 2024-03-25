@@ -49,7 +49,6 @@ Next you insert the M4 but into the cutout in the toolmount and screw assemby gr
 ![](eb77-eh21_baugruppe-2b-IMG_4951.JPG)
 
 Getting more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
-
 ![](eb77-eh21_baugruppe-2b-IMG_4955.JPG)
 
 Fix the servo arm with the single 3mm screw.
@@ -91,6 +90,7 @@ Add the second stepper now. You can adjust the height later, just fix it somewhe
 ![](eb77-eh21_aufbau-8-IMG_4959.JPG)
 
 Finally: add the preassambled [assembly group 2b](eb77-eh21_baugruppe-2b-IMG_4960.JPG) and the [assembly group 3, aka: the PCB](eb77-eh21_baugruppe-3-IMG_4952.JPG) and you're done with the mechanics part - congrats!
+
 ![](eb77-eh21_aufbau-9-IMG_4961.JPG)
 ![](eb77-eh21_aufbau-10-IMG_4963.JPG)
 ![](eb77-eh21_aufbau-11-IMG_4965.JPG)
