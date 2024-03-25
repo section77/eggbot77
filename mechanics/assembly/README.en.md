@@ -72,28 +72,28 @@ You are now ready to assemble your EggBot77! Take the 2 shorter (!) ones of the 
 Now insert the countersunk M3x20 to the top of the box and secure it with the remaining M3 nut.
 ![](eb77-eh21_aufbau-3-IMG_4932.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4984.JPG)
+![](eb77-eh21_aufbau-3-IMG_4884.JPG) 
 ![](eb77-eh21_aufbau-3-IMG_4938.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4993.JPG)
-![](eb77-eh21_aufbau-3-IMG_4943.JPG)
+![](eb77-eh21_aufbau-3-IMG_4893.JPG) 
+![](eb77-eh21_aufbau-4-IMG_4943.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4985.JPG)
-![](eb77-eh21_aufbau-3-IMG_4949.JPG)
+![](eb77-eh21_aufbau-3-IMG_4885.JPG) 
+![](eb77-eh21_aufbau-5-IMG_4949.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4994.JPG)
-![](eb77-eh21_aufbau-3-IMG_4954.JPG)
+![](eb77-eh21_aufbau-3-IMG_4894.JPG) 
+![](eb77-eh21_aufbau-6-IMG_4954.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4910.JPG)
-![](eb77-eh21_aufbau-3-IMG_4956.JPG)
+![](eb77-eh21_bauteil-15-IMG_4910.JPG)
+![](eb77-eh21_aufbau-7-IMG_4956.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4959.JPG)
+![](eb77-eh21_aufbau-8-IMG_4959.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4961.JPG)
+![](eb77-eh21_aufbau-9-IMG_4961.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4963.JPG)
+![](eb77-eh21_aufbau-10-IMG_4963.JPG)
 
-![](eb77-eh21_aufbau-3-IMG_4965.JPG)
+![](eb77-eh21_aufbau-11-IMG_4965.JPG)
 
 
 
