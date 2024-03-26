@@ -5,6 +5,7 @@
 * Mini Servo SG90 (1x)
 
 ### 3d printed parts
+![](eb77-eh21-alle_druckteile-IMG_4913.JPG)
 * [Tail stock holder](./assembly/eb77-eh21_bauteil-01-IMG_4891.JPG)
 * [Faucet](./assembly/eb77-eh21_bauteil-02-IMG_4895.JPG)
 * [Eierhalter Lagerseite](./assembly/eb77-eh21_bauteil-03-IMG_4907.JPG)
@@ -22,6 +23,7 @@
 * [Eierhalter Motorseite](./assembly/eb77-eh21_bauteil-15-IMG_4910.JPG)
 
 ### Screws and bolts
+![](eb77-eh21-alle_metallteile-IMG_4916.JPG)
 * Screw 3x12mm (4x; holding the PCB)
 * Bolt M4x30 (1x; holding the pen)
 * Nut M4 (1x; holding the pen)
