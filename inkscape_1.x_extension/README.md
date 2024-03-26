@@ -1,3 +1,6 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/inkscape_1.x_extension/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/inkscape_1.x_extension/README.md)
+
 # Inkscape 1.x Erweiterung für EggBot77
 
 ## Installation unter Linux und OSX

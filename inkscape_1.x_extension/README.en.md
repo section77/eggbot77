@@ -1,7 +1,10 @@
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/section77/eggbot77/blob/main/inkscape_1.x_extension/README.en.md)
+[![de](https://img.shields.io/badge/lang-de-blue.svg)](https://github.com/section77/eggbot77/blob/main/inkscape_1.x_extension/README.md)
+
 # Inkscape 1.x Extension for EggBot77
 
 ## Installation on Linux and OSX
-You have to put the content of the directories `extensions` and `templates` inside the respective folders inside your user extensions folder (the ones listed at `Edit` > `Preferences` under `System: User extensions` and `System: User templates`, by default `~/.config/inkscape/extensions` and `~/.config/inkscape/templates`).
+Put the content of the directories `extensions` and `templates` inside the respective folders inside your user extensions folder (the ones listed at `Edit` > `Preferences` under `System: User extensions` and `System: User templates`, by default `~/.config/inkscape/extensions` and `~/.config/inkscape/templates`).
 
 ```bash
 cp -r extensions/* ~/.config/inkscape/extensions/
