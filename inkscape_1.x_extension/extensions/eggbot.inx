@@ -173,10 +173,7 @@ selected number, which can be up to 100.
     <page name="Help" gui-text="*">
       <label
 	      xml:space="preserve">
-EggBot Control Inkscape extension 
-Release 2.8.1, dated 2017-06-07
-
-* EBB Firmware 2.5.1 or newer is recommended.
+EggBot77 Control Inkscape extension
 
 Known issues:
 * "Cancel" function does not work while plotting.
@@ -185,8 +182,11 @@ Known issues:
    Inkscape extension, including this one.)
    
 Latest version and issue tracker available at:
-https://github.com/evil-mad/EggBot/
+https://github.com/section77/eggbot77
 
+Credits:
+This is a fork of Gesina Schwalbes fork from mad-evil, see
+https://github.com/section77/eggbot77/tree/main/inkscape_1.x_extension#credits
 
 </label>
     </page>
