@@ -445,6 +445,7 @@ class EggBot( inkex.Effect ):
 			self.penDownActivatesEngraver = True
 			self.recursivelyTraverseSvg( self.svg, self.svgTransform )
 			self.penUp()   #Always end with pen-up
+			self.sendDisableMotors() #And disable both steppers
 
 			# Logically, we want to turn the engraver off here as well,
 			# but we put that in our finally clause instead
