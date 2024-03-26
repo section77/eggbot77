@@ -1,52 +1,51 @@
-# Inkscape 1.x Extension for EggBot77
+# Inkscape 1.x Erweiterung für EggBot77
 
-## Installation on Linux and OSX
-You have to put the content of the directories `extensions` and
-`templates` inside the respective folders inside your user extensions folder
-(the ones listed at `Edit` > `Preferences` under `System: User extensions`
-and `System: User templates`, by default
-`~/.config/inkscape/extensions` and `~/.config/inkscape/templates`).
+## Installation unter Linux und OSX
+Kopiere den Inhalt der Verzeichnisse `extensions` und `templates` in die entsprechenden Ordner unterhalb des Verzeichnisses mit Deinen Erweiterungen (die unter `Bearbeiten` > `Einstellungen` unter `System: Benutzererweiterungen` und `System: Benutzervorlagen`, standardmäßig `~/.config/inkscape/extensions` und `~/.config/inkscape/templates`).
 
 ```bash
 cp -r extensions/* ~/.config/inkscape/extensions/
 cp -r templates/* ~/.config/inkscape/templates/
 ```
 
-### Dependencies
+### Abhängigkeiten
 
-- Inkscape >= 1.0 (obviously). But only tested (yet) with Inkscape 1.2
+- Inkscape >= 1.0 (offensichtlich). Wir haben auch mit neueren Version bis Inkscape 1.3 getestet
 - python3
 - python3-serial
 
-On Debian or Debian-based distributions (Ubuntu, Mint) use apt-get/aptitude/apt, for example
+Verwende auf Debian oder Debian-basierten Distributionen (Ubuntu, Mint) apt, zum Beispiel
 ```bash
-sudo apt-get install inkscape python3 python3-serial
+sudo apt install inkscape python3 python3-serial
 ```
-### Access Rights
 
-On most GNU/Linux distributions you have to be member of a certain group to use serial ports.
+### Zugriffsrechte
 
-On Debian/Ubuntu/Mint this is the `dialout` group to which you can add yourself with
+Bei den meisten GNU/Linux-Distributionen muss man Mitglied einer bestimmten Gruppe sein, um die serielle Schnittstellen nutzen zu können.
+
+Unter Debian ist dies die Gruppe `dialout`, zu der Du Dich hinzufügen kannst mit
 ```
 sudo addgroup $USER dialout
 ```
 
-On Archlinux it is the `uucp` group to which you can add yourself with
+Unter Archlinux ist es die Gruppe `uucp`, zu der Du Dich selbst hinzufügen kannst mit
 ```
 sudo usermod -aG uucp $USER
 ```
 
-You need to logout/logon or reboot to activate the change.
+Du musst Dich abmelden/anmelden oder neu starten, um die Änderung zu aktivieren.
 
-### Troubleshooting
+### Fehlersuche
 
-You aren't able to connect to your EggDuino? Try this:
+#### Du kannst keine Verbindung zu Ihrem EggDuino herstellen? 
 
-Disconnect your board from your PC and execute
+Versuch' das:
+
+Trenne Dein ESP32-Board von Deinem PC, führe aus
 ```
 sudo dmesg -ew
 ```
-and plugin your ESP32 Board. You should see something like
+und schließe Dein Board wieder an. Du solltest etwas sehen wie
 ```
 [  +2,039765] usb 3-1: new full-speed USB device number 4 using xhci_hcd
 [  +0,183255] usb 3-1: New USB device found, idVendor=303a, idProduct=8141, bcdDevice= 1.00
@@ -57,79 +56,70 @@ and plugin your ESP32 Board. You should see something like
 [  +0,037042] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
 ```
 
-The important pieces you can extract from the above: Your device
-is now available as `/dev/ttyACM0`. You can now check the rights which are needed to access this device:
+Die wichtigsten Informationen kannst Du aus den obigen Angaben entnehmen: Dein Gerät ist jetzt als `/dev/ttyACM0` verfügbar. Du kannst nun die Rechte überprüfen, die für den Zugriff auf dieses Gerät erforderlich sind:
 
 ```
 $ ls -la /dev/ttyACM0
-crw-rw---- 1 root dialout 166, 0  8. Feb 12:41 /dev/ttyACM0
+crw-rw---- 1 root dialout 166, 0 8. Feb 12:41 /dev/ttyACM0
 ```
 
-So you need to be root or are member of the group `dialout`. Are we?
+Du musst also root sein oder Mitglied der Gruppe `dialout`. Bist Du das?
 ```
 $ groups
 dialout cdrom floppy sudo audio dip video plugdev netdev lpadmin scanner bluetooth libvirt sbuild libvirt-qemu
 ```
 
-Be sure the output of `groups` includes the group `dialout` as it does above.
+Vergewissere Dich, dass die Ausgabe von `groups` die Gruppe `dialout` enthält, wie es oben der Fall ist.
 
-Then start inkscape, select Erweiterungen/Extensions - EggBot - EggBot Control. On the `Manual` tab you can check the
-individual commands like pen up/down.
+Starte dann Inkscape, wähle `Erweiterungen/Extensions - EggBot - EggBot Control`. Auf der Registerkarte `Manual` kannst Du die einzelnen Befehle wie `Pen up`/`Pen down` testen.
 
-## Installation on Windows
-You have to copy the templates and extensions folders to the inkscape/share folder which
-is typically located at C:\programme\inkscape\share
+## Installation unter Windows
+Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\share` zu finden ist
 
 ## Inkscape AppImage
 
-The original Inkscape AppImages are missing the python-serial module and thus won't work out of the box.
+Den originalen Inkscape AppImages fehlt das Modul `python-serial` und sie funktionieren daher nicht ohne weiteres.
 
-You'll find an AppImage where we added the modules and extensions here: https://josoansi.de/files/Inkscape-091e20e-EggBot77-x86_64.AppImage
-FIXME: Recreate and upload to section77.de
+Ein AppImage, bei dem wir die Module und Erweiterungen hinzugefügt haben, findest Du hier: https://josoansi.de/files/Inkscape-091e20e-EggBot77-x86_64.AppImage
+FIXME: Neu erstellen und auf section77.de hochladen
 
-The above linked image was created on Debian GNU/Linux 12 (bookworm) with
+Das oben verlinkte Image wurde auf Debian GNU/Linux 12 (bookworm) mit
 
 ```bash
-# get Inkscape AppImage
+# Inkscape AppImage holen
 wget -nc https://inkscape.org/de/gallery/item/44616/Inkscape-091e20e-x86_64.AppImage
 chmod +x Inkscape-091e20e-x86_64.AppImage
 
-# extract it
+# entpacken
 ./Inkscape-091e20e-x86_64.AppImage --appimage-extract
 
-# add pyserial
+# pyserial hinzufügen
 wget -nc https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz
 tar xzf pyserial-3.5.tar.gz
 cp -r pyserial-3.5/serial squashfs-root/usr/lib/python3/dist-packages/
 
-# add EggBot77 extensions and template
-cp ./extensions/* squashfs-root/usr/share/inkscape/extensions
+# EggBot77-Erweiterungen und -Vorlage hinzufügen
+cp ./extensions/* squashfs-root/usr/share/inkscape/extensions/
 cp ./templates/* squashfs-root/usr/share/inkscape/templates/
 
-# repack the AppImage
+# AppImage neu packen
 wget -nc https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
 chmod +x appimagetool-x86_64.AppImage
 ./appimagetool-x86_64.AppImage squashfs-root/
 
-# rename it
+# umbenennen
 mv Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage
-
-# upload to section77.de
-scp Inkscape-091e20e-EggBot77-x86_64.AppImage section77.de:/var/www/html/files/
 ```
 
-## Other Projects Parts
+## Weitere Projektseiten
 
- * [Eggduino Firmware](https://github.com/section77/EggDuino)
- * [Eggbot77 Wiki](https://wiki.section77.de/projekte/eggbot77) (in german)
+ * [Eggbot77 Wiki](https://wiki.section77.de/projekte/eggbot77) (in deutsch)
 
 ## Credits
 
-This directory started as
+Dieses Verzeichnis begann als
 ```bash
 git clone -b inkscape1.0compat https://github.com/gesina/eggbot_extension.git
 ```
 
-and went further from there. The reason for this was the wish to have one complete
-repo with PCB, 3D printing parts, ESP32 firmware and inkscape plugin without
-the need to fiddle around with subrepos which may break compatibility over time.
+und wuchs von dort aus weiter. Der Grund dafür war der Wunsch, eine komplette Repo mit PCB, 3D-Druckteilen, ESP32-Firmware und Inkscape-Plugin zu haben, ohne ohne mit Unterrepos herumspielen zu müssen, die mit der Zeit die Kompatibilität beeinträchtigen könnten.

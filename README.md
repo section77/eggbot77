@@ -9,4 +9,5 @@ Section77 Variante des EggBots mit ESP32 S2 mini
 
 * [Aufbauanleitung Elektronik](./electronics/assembly/README.md)
 * [Aufbauanleitung Mechanik](./mechanics/assembly/README.md)
+* [Installationsanleitung Firmware](./firmware/README.md)
 * [Installationsanleitung Inkscape Plugin](./inkscape_1.x_extension/README.md)
