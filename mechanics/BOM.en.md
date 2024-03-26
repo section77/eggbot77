@@ -5,7 +5,7 @@
 * Mini Servo SG90 (1x)
 
 ### 3d printed parts
-![](eb77-eh21-alle_druckteile-IMG_4913.JPG)
+![](./assembly/eb77-eh21-alle_druckteile-IMG_4913.JPG)
 * [Tail stock holder](./assembly/eb77-eh21_bauteil-01-IMG_4891.JPG)
 * [Faucet](./assembly/eb77-eh21_bauteil-02-IMG_4895.JPG)
 * [Eierhalter Lagerseite](./assembly/eb77-eh21_bauteil-03-IMG_4907.JPG)
@@ -23,18 +23,18 @@
 * [Eierhalter Motorseite](./assembly/eb77-eh21_bauteil-15-IMG_4910.JPG)
 
 ### Screws and bolts
-![](eb77-eh21-alle_metallteile-IMG_4916.JPG)
-* Screw 3x12mm (4x; holding the PCB)
+![](./assembly/eb77-eh21-alle_metallteile-IMG_4916.JPG)
 * Bolt M4x30 (1x; holding the pen)
 * Nut M4 (1x; holding the pen)
-* Bolt M3x20 Senkkopf (1x; for the intersecting box)
-* Bolt M3x20 Zylinderkopf (1x; holding the spring)
-* Bolt M3x8 Zylinderkopf (8x; holding the steppers)
-* Washer xxx (4x; for the rotational stepper)
+* Bolt M3x30 lens head (1x; for the hinge)
+* Bolt M3x20 counter sunk head (1x; for the intersecting box)
+* Bolt M3x20 cylindrical head (1x; holding the spring)
+* Bolt M3x8 cylindrical head (8x; holding the steppers)
 * Nut M3 (3x; 1x for the intersecting box and 2x for the pen arm)
-* Bolt M3x30 Linsenkopf (1x; for the hinge)
+* Washer (4x; for the rotational stepper)
 * Nut M5 (2x; holding the bearing)
-* Screw 2mm xxx (1x; attaching the spring to the servo horn)
+* Screw 3x12mm (4x; holding the PCB)
+* Screw 2mm (1x; attaching the spring to the servo horn; not in the picture!)
 * Threaded rod M5 (1x; holding the egg)
 
 ### Miscellaneous components
