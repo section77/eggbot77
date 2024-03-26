@@ -4,7 +4,7 @@
 * Stepper NEMA17 (2x)
 * Mini Servo SG90 (1x)
 
-### Ausdrucke
+### 3d printed parts
 * [Tail stock holder](./assembly/eb77-eh21_bauteil-01-IMG_4891.JPG)
 * [Faucet](./assembly/eb77-eh21_bauteil-02-IMG_4895.JPG)
 * [Eierhalter Lagerseite](./assembly/eb77-eh21_bauteil-03-IMG_4907.JPG)
