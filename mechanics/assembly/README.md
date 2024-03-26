@@ -70,8 +70,8 @@ Du bist nun bereit, Deinen EggBot77 zusammenzubauen! Nimm die 2 kürzeren (!) de
 Steck' nun die M3x20 Senkkopfschraube in die Oberseite der Box und sichere sie mit der verbleibenden M3-Mutter.
 ![](eb77-eh21_aufbau-2-IMG_4932.JPG)
 
-Steck' den [Stepperhalter für den Stift](eb77-eh21_aufbau-3-IMG_4884.JPG) (leicht zu erkennen an den langen vertikalen Löchern, die eine Höhenverstellung des Steppers ermöglichen - übrigens eine der Verbesserungen des diesjährigen Modells) auf das kürzere Stangenpaar.
-![](eb77-eh21
+Steck' den [Stepperhalter für den Stift](eb77-eh21_bauteil-11-IMG_4884.JPG) (leicht zu erkennen an den langen vertikalen Löchern, die eine Höhenverstellung des Steppers ermöglichen - übrigens eine der Verbesserungen des diesjährigen Modells) auf das kürzere Stangenpaar.
+![](eb77-eh21_aufbau-3-IMG_4938.JPG)
 
 Das andere Ende dieser Stangen geht in den [Stiftstepperhalterfuß](eb77-eh21_bauteil-12-IMG_4893.JPG).
 ![](eb77-eh21_aufbau-4-IMG_4943.JPG)

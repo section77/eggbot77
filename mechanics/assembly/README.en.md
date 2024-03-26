@@ -72,7 +72,7 @@ You are now ready to assemble your EggBot77! Take the 2 shorter (!) ones of the 
 Now insert the countersunk M3x20 to the top of the box and secure it with the remaining M3 nut.
 ![](eb77-eh21_aufbau-2-IMG_4932.JPG)
 
-Put the [stepperholder for the pen](eb77-eh21_aufbau-3-IMG_4884.JPG) (easily identified by its long vertical holes that allow for height adjustments of the stepper - and is one of the improvements of this year's model, BTW) onto the shorter pair of rods.
+Put the [stepperholder for the pen](eb77-eh21_bauteil-11-IMG_4884.JPG) (easily identified by its long vertical holes that allow for height adjustments of the stepper - and is one of the improvements of this year's model, BTW) onto the shorter pair of rods.
 ![](eb77-eh21_aufbau-3-IMG_4938.JPG)
 
 The other end of these rods go into the [pen stepper holder foot](eb77-eh21_bauteil-12-IMG_4893.JPG).
