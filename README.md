@@ -10,7 +10,7 @@ Section77 Variante des EggBots mit ESP32 S2 mini
 Willkommen! :)
 
 Bitte prüfe zuallererst, ob Du alle Komponenten hast, die Du zum Bau Deines EggBot77 brauchst!
-* [Materialliste Electronik](./electronics/BOM.md)
+* [Materialliste Elektronik](./electronics/BOM.md)
 * [Materialliste Mechanik](./mechanics/BOM.md)
 
 Alles da? Super! Dann kann's ja losgehen:
