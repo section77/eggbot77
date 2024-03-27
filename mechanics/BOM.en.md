@@ -38,5 +38,5 @@
 
 ### Miscellaneous components
 * Bearing 625ZZ
-* Aluminum rod 6mmm, ca. xxx cm (2x)
-* Aluminum rod 6mmm, ca. xxx cm (2x)
+* Aluminum rod 6mmm, short (2x)
+* Aluminum rod 6mmm, long (2x)

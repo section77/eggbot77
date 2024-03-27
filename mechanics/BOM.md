@@ -38,5 +38,5 @@
 
 ### Sonstige Komponenten
 * Lager 625ZZ
-* Alustange 6mmm, ca. xxx cm lang (2x)
-* Alustange 6mmm, ca. xxx cm lang (2x)
+* Alustange 6mmm, kurz (2x)
+* Alustange 6mmm, lang (2x)
