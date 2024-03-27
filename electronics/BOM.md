@@ -1,10 +1,3 @@
-## Reichelt
-
-* 1x 1N 5822 (Schottkydiode, 40 V, 3 A, DO-201AD) 0,15€
-* 2x RAD FR 100/35 (d = 8, L = 11.5 950mA @ 100kHz, 56 mOhm, 3,5mm Beinabstand radial) 0,29€
-* 2x JST PH6P ST (JST - Stiftleiste, gerade, 1x6-polig - PH) 0,31€
-* 2x SL 1X36G 2,54 (36pol. Stiftleiste, gerade, RM 2,54) 0,25€
-
 ### optional für 5V PWM Pegel am Servo
 
 * 1x BSS 138 SMD (MOSFET, N-CH, 50V, 0,22A, 0,36W, SOT-23) 0,07€
@@ -16,15 +9,24 @@
 * u.U. Netzteil(e) - noch nicht entschieden
 * Hohlbuchse 94-451810
 * Hohlbuchse 94-452316
-* 2x 451354 CONNFLY ELECTRONIC Buchsenleiste, vergoldet, 2x 8-polig
-* 4x 451498 CONNFLY ELECTRONIC Buchsenleiste, vergoldet, 1x 20-polig
 
 ## roboter-bausatz.de
 
 * 2x https://www.roboter-bausatz.de/p/a4988-schrittmotorentreiber
 * 1x https://www.roboter-bausatz.de/p/sg90-9g-micro-servomotor
 
-## Amazon
 
-* LM2596 DC-DC Buck Converter Modul, typ. 1,50€,
-  z.B. https://www.amazon.de/Stromversorgung-Spannungsregler-Abwärtswandler-Hocheffizienter-Einstellbares/dp/B07F38DJLS
+| Kategorie  | Bauteil                  | Anzahl | Shop (Bsp.) | Quelle (Bsp) |
+| ---------- | ------------------------ | ------ | ----------- | ------------ |
+| Elektronik | Platine                  | 1      | -           | -            |
+| Elektronik | Schottkydiode 1N 5822 (40 V, 3 A, DO-201AD)           | 1      | Reichelt
+| Elektronik | Elko 100 µF (RAD FR 100/35 (d = 8, L = 11.5 950mA @ 100kHz, 56 mOhm, 3,5mm Beinabstand,  radial)) | 2      | Reichelt |
+| Elektronik | Stiftleiste 1x36-polig (SL 1X36G, gerade, RM 2,54) | 1      |
+| Elektronik | Netzteil 12V             | 1      |
+| Elektronik | Hohlbuchse               | 1      |
+| Elektronik | Buchsenleiste 2x8-polig (451354 CONNFLY ELECTRONIC, vergoldet)  | 2      | Conrad
+| Elektronik | Buchsenleiste 1x20-polig (451498 CONNFLY ELECTRONIC, vergoldet) | 2      |
+| Elektronik | Schrittmotortreiber      | 2      |
+| Elektronik | Spannungswandlermodul (LM2596 DC-DC)   | 1      | Amazon | [Link](https://www.amazon.de/Stromversorgung-Spannungsregler-Abwärtswandler-Hocheffizienter-Einstellbares/dp/B07F38DJLS) |
+| Elektronik | Microcontroller (ESP32 S2 mini) | 1      |
+| Elektronik | JST-Stiftleiste PH6P ST (gerade, 1x6-polig - PH) | 2      | Reichelt

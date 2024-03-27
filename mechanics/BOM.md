@@ -31,7 +31,6 @@
 * Schraube M3x20 Zylinderkopf (1x; zur Befestigung der Feder)
 * Schraube M3x8 Zylinderkopf (8x; zur Befestigung der Schrittmotoren)
 * Mutter M3 (3x; 1x für das Zentrum und 2x für den Stiftarm)
-* Unterlegscheibe (4x; für den Rotationsschrittmotor)
 * Mutter M5 (2x; zur Befestigung des Lagers)
 * Blechschraube 3x12mm (4x; zur Befestigung der Platine)
 * Blechschraube 2mm xxx (1x; zur Befestigung der Feder am Servohorn; nicht im Bild!)

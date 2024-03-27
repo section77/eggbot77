@@ -7,6 +7,8 @@
 Kopiere den Inhalt der Verzeichnisse `extensions` und `templates` in die entsprechenden Ordner unterhalb des Verzeichnisses mit Deinen Erweiterungen (die unter `Bearbeiten` > `Einstellungen` unter `System: Benutzererweiterungen` und `System: Benutzervorlagen`, standardmäßig `~/.config/inkscape/extensions` und `~/.config/inkscape/templates`).
 
 ```bash
+mkdir -p ~/.config/inkscape/extensions/
+mkdir -p ~/.config/inkscape/templates/
 cp -r extensions/* ~/.config/inkscape/extensions/
 cp -r templates/* ~/.config/inkscape/templates/
 ```
@@ -16,6 +18,8 @@ cp -r templates/* ~/.config/inkscape/templates/
 - Inkscape >= 1.0 (offensichtlich). Wir haben auch mit neueren Version bis Inkscape 1.3 getestet
 - python3
 - python3-serial
+
+Anmerkung: falls Du eine neuere Version von Inkscape installieren möchtest, verwende die PPA-Variante
 
 Verwende auf Debian oder Debian-basierten Distributionen (Ubuntu, Mint) apt, zum Beispiel
 ```bash
@@ -36,7 +40,7 @@ Unter Archlinux ist es die Gruppe `uucp`, zu der Du Dich selbst hinzufügen kann
 sudo usermod -aG uucp $USER
 ```
 
-Du musst Dich abmelden/anmelden oder neu starten, um die Änderung zu aktivieren.
+Anmerkung: Du musst Dich abmelden/anmelden oder neu starten, um die Änderung zu aktivieren.
 
 ### Fehlersuche
 
@@ -74,10 +78,10 @@ dialout cdrom floppy sudo audio dip video plugdev netdev lpadmin scanner bluetoo
 
 Vergewissere Dich, dass die Ausgabe von `groups` die Gruppe `dialout` enthält, wie es oben der Fall ist.
 
-Starte dann Inkscape, wähle `Erweiterungen/Extensions - EggBot - EggBot Control`. Auf der Registerkarte `Manual` kannst Du die einzelnen Befehle wie `Pen up`/`Pen down` testen.
+Starte dann Inkscape, wähle `Erweiterungen - EggBot - EggBot Control`. Auf der Registerkarte `Manual` kannst Du die einzelnen Befehle wie `Pen up`/`Pen down` testen.
 
 ## Installation unter Windows
-Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\share` zu finden ist
+Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\Share` zu finden ist
 
 ## Inkscape AppImage
 
@@ -113,10 +117,6 @@ chmod +x appimagetool-x86_64.AppImage
 # umbenennen
 mv Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage
 ```
-
-## Weitere Projektseiten
-
- * [Eggbot77 Wiki](https://wiki.section77.de/projekte/eggbot77) (in deutsch)
 
 ## Credits
 

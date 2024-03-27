@@ -31,7 +31,6 @@
 * Bolt M3x20 cylindrical head (1x; holding the spring)
 * Bolt M3x8 cylindrical head (8x; holding the steppers)
 * Nut M3 (3x; 1x for the intersecting box and 2x for the pen arm)
-* Washer (4x; for the rotational stepper)
 * Nut M5 (2x; holding the bearing)
 * Screw 3x12mm (4x; holding the PCB)
 * Screw 2mm (1x; attaching the spring to the servo horn; not in the picture!)

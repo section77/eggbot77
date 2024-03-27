@@ -7,6 +7,8 @@
 Put the content of the directories `extensions` and `templates` inside the respective folders inside your user extensions folder (the ones listed at `Edit` > `Preferences` under `System: User extensions` and `System: User templates`, by default `~/.config/inkscape/extensions` and `~/.config/inkscape/templates`).
 
 ```bash
+mkdir -p ~/.config/inkscape/extensions/
+mkdir -p ~/.config/inkscape/templates/
 cp -r extensions/* ~/.config/inkscape/extensions/
 cp -r templates/* ~/.config/inkscape/templates/
 ```
@@ -17,11 +19,13 @@ cp -r templates/* ~/.config/inkscape/templates/
 - python3
 - python3-serial
 
+Note: in case you want to install a newer version of Inkscape, make sure you use the PPA option.
+
 On Debian or Debian-based distributions (Ubuntu, Mint) use apt, for example
 ```bash
 sudo apt install inkscape python3 python3-serial
 ```
-### Access Rights
+### Permissions
 
 On most GNU/Linux distributions you have to be member of a certain group to use serial ports.
 
@@ -35,7 +39,7 @@ On Archlinux it is the `uucp` group to which you can add yourself with
 sudo usermod -aG uucp $USER
 ```
 
-You need to logout/logon or reboot to activate the change.
+Note: You need to logout/logon or reboot to activate the change.
 
 ### Troubleshooting
 
@@ -56,7 +60,7 @@ and plug your board in again. You should see something like
 [  +0,037042] cdc_acm 3-1:1.0: ttyACM0: USB ACM device
 ```
 
-The important pieces you can extract from the above: Your device is now available as `/dev/ttyACM0`. You can now check the rights which are needed to access this device:
+The important pieces you can extract from the above: Your device is now available as `/dev/ttyACM0`. You can now check the permissions which are needed to access this device:
 
 ```
 $ ls -la /dev/ttyACM0
@@ -71,10 +75,10 @@ dialout cdrom floppy sudo audio dip video plugdev netdev lpadmin scanner bluetoo
 
 Be sure the output of `groups` includes the group `dialout` as it does above.
 
-Then start inkscape, select Erweiterungen/Extensions - EggBot - EggBot Control. On the `Manual` tab you can check the individual commands like pen up/down.
+Then start inkscape, select Extensions - EggBot - EggBot Control. On the `Manual` tab you can check the individual commands like pen up/down.
 
 ## Installation on Windows
-You have to copy the templates and extensions folders to the inkscape/share folder which is typically located at C:\programme\inkscape\share
+You have to copy the templates and extensions folders to the inkscape/share folder which is typically located at `C:\Program Files\Inkscape\Share`
 
 ## Inkscape AppImage
 
@@ -110,10 +114,6 @@ chmod +x appimagetool-x86_64.AppImage
 # rename it
 mv Inkscape-x86_64.AppImage Inkscape-091e20e-EggBot77-x86_64.AppImage
 ```
-
-## Other Projects Pages
-
- * [Eggbot77 Wiki](https://wiki.section77.de/projekte/eggbot77) (in german)
 
 ## Credits
 
