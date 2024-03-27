@@ -5,7 +5,7 @@
 * Mini-Servo SG90 (1x)
 
 ### Ausdrucke
-![](./assembly/eb77-eh21-alle_druckteile-IMG_4913.JPG)
+![](./assembly/eb77-eh21_alle_druckteile-IMG_4913.JPG)
 * [Reitstockhalter](./assembly/eb77-eh21_bauteil-01-IMG_4891.JPG)
 * [Wasserhahn](./assembly/eb77-eh21_bauteil-02-IMG_4895.JPG)
 * [Eierhalter Lagerseite](./assembly/eb77-eh21_bauteil-03-IMG_4907.JPG)
@@ -23,7 +23,7 @@
 * [Eierhalter Motorseite](./assembly/eb77-eh21_bauteil-15-IMG_4910.JPG)
 
 ### Schrauben
-![](./assembly/eb77-eh21-alle_metallteile-IMG_4916.JPG)
+![](./assembly/eb77-eh21_alle_metallteile-IMG_4916.JPG)
 * Schraube M4x30 (1x; zur Fixierung des Stiftes)
 * Mutter M4 (1x; zur Fixierung des Stiftes)
 * Schraube M3x30 Linsenkopf (1x; für das Armgelenk)
