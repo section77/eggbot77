@@ -87,8 +87,7 @@ Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` 
 
 Den originalen Inkscape AppImages fehlt das Modul `python-serial` und sie funktionieren daher nicht ohne weiteres.
 
-Ein AppImage, bei dem wir die Module und Erweiterungen hinzugefügt haben, findest Du hier: https://josoansi.de/files/Inkscape-091e20e-EggBot77-x86_64.AppImage
-FIXME: Neu erstellen und auf section77.de hochladen
+Ein AppImage, bei dem wir die Module und Erweiterungen hinzugefügt haben, findest Du hier: https://docs.section77.de/Inkscape-091e20e-EggBot77-x86_64.AppImage
 
 Das oben verlinkte Image wurde auf Debian GNU/Linux 12 (bookworm) mit
 

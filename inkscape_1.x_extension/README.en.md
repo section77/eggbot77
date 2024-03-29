@@ -84,8 +84,7 @@ You have to copy the templates and extensions folders to the inkscape/share fold
 
 The original Inkscape AppImages are missing the python-serial module and thus won't work out of the box.
 
-You'll find an AppImage where we added the modules and extensions here: https://josoansi.de/files/Inkscape-091e20e-EggBot77-x86_64.AppImage
-FIXME: Recreate and upload to section77.de
+You'll find an AppImage where we added the modules and extensions here: https://docs.section77.de/Inkscape-091e20e-EggBot77-x86_64.AppImage
 
 The above linked image was created on Debian GNU/Linux 12 (bookworm) with
 
