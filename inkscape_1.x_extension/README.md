@@ -81,7 +81,7 @@ Vergewissere Dich, dass die Ausgabe von `groups` die Gruppe `dialout` enthält, 
 Starte dann Inkscape, wähle `Erweiterungen - EggBot - EggBot Control`. Auf der Registerkarte `Manual` kannst Du die einzelnen Befehle wie `Pen up`/`Pen down` testen.
 
 ## Installation unter Windows
-Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\Share` zu finden ist
+Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\share\inkscape` zu finden ist
 
 ## Inkscape AppImage
 
