@@ -67,7 +67,7 @@ $ ls -la /dev/ttyACM0
 crw-rw---- 1 root dialout 166, 0  8. Feb 12:41 /dev/ttyACM0
 ```
 
-So you need to be root or are member of the group `dialout`. Are we?
+So you need to be `root` or are member of the group `dialout`. Are we?
 ```
 $ groups
 dialout cdrom floppy sudo audio dip video plugdev netdev lpadmin scanner bluetooth libvirt sbuild libvirt-qemu
@@ -78,7 +78,7 @@ Be sure the output of `groups` includes the group `dialout` as it does above.
 Then start inkscape, select Extensions - EggBot - EggBot Control. On the `Manual` tab you can check the individual commands like pen up/down.
 
 ## Installation on Windows
-You have to copy the templates and extensions folders to the inkscape/share folder which is typically located at `C:\Program Files\Inkscape\Share`
+You have to copy the templates and extensions folders to the `share/inkscape` folder which is typically located at `C:\Program Files\Inkscape\share/inkscape`
 
 ## Inkscape AppImage
 

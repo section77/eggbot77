@@ -40,7 +40,7 @@ Unter Archlinux ist es die Gruppe `uucp`, zu der Du Dich selbst hinzufügen kann
 sudo usermod -aG uucp $USER
 ```
 
-Anmerkung: Du musst Dich abmelden/anmelden oder neu starten, um die Änderung zu aktivieren.
+Anmerkung: melde Dich ab und wieder an, um die Änderung zu aktivieren.
 
 ### Fehlersuche
 
@@ -70,7 +70,7 @@ $ ls -la /dev/ttyACM0
 crw-rw---- 1 root dialout 166, 0 8. Feb 12:41 /dev/ttyACM0
 ```
 
-Du musst also root sein oder Mitglied der Gruppe `dialout`. Bist Du das?
+Du musst also `root` sein oder Mitglied der Gruppe `dialout`. Bist Du das?
 ```
 $ groups
 dialout cdrom floppy sudo audio dip video plugdev netdev lpadmin scanner bluetooth libvirt sbuild libvirt-qemu
@@ -81,7 +81,7 @@ Vergewissere Dich, dass die Ausgabe von `groups` die Gruppe `dialout` enthält, 
 Starte dann Inkscape, wähle `Erweiterungen - EggBot - EggBot Control`. Auf der Registerkarte `Manual` kannst Du die einzelnen Befehle wie `Pen up`/`Pen down` testen.
 
 ## Installation unter Windows
-Du musst die Ordner `templates` und `extensions` in den Ordner `inkscape/share` kopieren, der normalerweise unter `C:\Programme\Inkscape\share\inkscape` zu finden ist
+Die Ordner `templates` und `extensions` müssen in den Ordner `share/inkscape` kopiert werden, der normalerweise unter `C:\Programme\Inkscape\share\inkscape` zu finden ist.
 
 ## Inkscape AppImage
 
