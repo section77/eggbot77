@@ -22,6 +22,10 @@
 * [rotational stepper holder foot](./print_files/Rotational_Stepper_Holder_Foot.stl)
 * [Eierhalter Motorseite](./print_files/tpu-eierhalter-stiftseite.stl)
 
+#### Amount of filament used  (20% infill): 
+  * PLA: some 110g
+  * TPU: some 11g
+
 ### Screws and bolts
 ![](./assembly/eb77-eh21_alle_metallteile-IMG_4916.JPG)
 * Bolt M4x30 (1x; holding the pen)
@@ -34,9 +38,9 @@
 * Nut M5 (2x; holding the bearing)
 * Screw 3x12mm (4x; holding the PCB)
 * Screw 2mm (1x; attaching the spring to the servo horn; not in the picture!)
-* Threaded rod M5 (1x; holding the egg)
+* Threaded rod M5 ca. 10cm (1x; holding the egg)
 
 ### Miscellaneous components
 * Bearing 625ZZ
-* Aluminum rod 6mmm, short (2x)
-* Aluminum rod 6mmm, long (2x)
+* Aluminum rod 6mmm, ca. 12,5cm (2x)
+* Aluminum rod 6mmm, ca. 16,5cm (2x)

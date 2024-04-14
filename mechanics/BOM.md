@@ -22,6 +22,10 @@
 * [Rotationsschritthalterfuß](./print_files/Rotational_Stepper_Holder_Foot.stl)
 * [Eierhalter Motorseite](./print_files/tpu-eierhalter-stiftseite.stl)
 
+#### Benötigte Filamentmenge (20% Infill): 
+  * PLA: ca. 110g
+  * TPU: ca. 11g
+
 ### Schrauben
 ![](./assembly/eb77-eh21_alle_metallteile-IMG_4916.JPG)
 * Schraube M4x30 (1x; zur Fixierung des Stiftes)
@@ -34,9 +38,9 @@
 * Mutter M5 (2x; zur Befestigung des Lagers)
 * Blechschraube 3x12mm (4x; zur Befestigung der Platine)
 * Blechschraube 2mm xxx (1x; zur Befestigung der Feder am Servohorn; nicht im Bild!)
-* Gewindestange M5 (1x; zur Fixierung des Eis)
+* Gewindestange M5 ca. 10cm (1x; zur Fixierung des Eis)
 
 ### Sonstige Komponenten
 * Lager 625ZZ
-* Alustange 6mmm, kurz (2x)
-* Alustange 6mmm, lang (2x)
+* Alustange 6mmm, ca. 12,5cm (2x)
+* Alustange 6mmm, ca. 16,5cm (2x)
