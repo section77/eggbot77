@@ -66,7 +66,7 @@ That's an easy one again. Use the 4 3mm screws to attach the PCB to the [nema eg
 ![](eb77-eh21_baugruppe-3-IMG_4953.JPG)
 
 ## complete assembly: integrates remaining single parts and all assembly groups
-You are now ready to assemble your EggBot77! Take the 2 shorter (!) ones of the 6mm alumiminum rods and put them through the bottom holes of the [box intersecting rods](eb77-eh21_bauteil-10-IMG_4889.JPG). Which is the bottom side of the box? Glad you ask! That's the one that accepts the M3 nut; so, the top one is the one that has a countersunk hole for the bolt. Now take the 2 remaining rods and put them through the remaining holes of the box.
+You are now ready to assemble your EggBot77! Take the 2 longer (!) ones of the 6mm alumiminum rods and put them through the bottom holes of the [box intersecting rods](eb77-eh21_bauteil-10-IMG_4889.JPG). Which is the bottom side of the box? Glad you ask! That's the one that accepts the M3 nut; so, the top one is the one that has a countersunk hole for the bolt. Now take the 2 remaining rods and put them through the remaining holes of the box.
 ![](eb77-eh21_aufbau-1-IMG_4927.JPG)
 
 Now insert the countersunk M3x20 to the top of the box and secure it with the remaining M3 nut.

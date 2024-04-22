@@ -64,7 +64,7 @@ Das wird jetzt wieder einfach. Befestige die Platine mit den 4 3mm-Schrauben am 
 ![](eb77-eh21_baugruppe-3-IMG_4953.JPG)
 
 ## Vollständiger Zusammenbau: integriert die restlichen Einzelteile und alle Baugruppen
-Du bist nun bereit, Deinen EggBot77 zusammenzubauen! Nimm die 2 kürzeren (!) der 6mm Aluminiumstangen und stecke sie durch die unteren Löcher der [zentralen Box](eb77-eh21_bauteil-10-IMG_4889.JPG). Welche ist die Unterseite der Box? Gut, dass du fragst! Das ist diejenige, die die M3-Mutter aufnimmt; die obere Seite ist also diejenige, die eine Senkbohrung für die Schraube hat. Nun nimmst du die 2 verbleibenden Stangen und steckst sie durch die restlichen Löcher der Box.
+Du bist nun bereit, Deinen EggBot77 zusammenzubauen! Nimm die 2 längeren (!) der 6mm Aluminiumstangen und stecke sie durch die unteren Löcher der [zentralen Box](eb77-eh21_bauteil-10-IMG_4889.JPG). Welche ist die Unterseite der Box? Gut, dass du fragst! Das ist diejenige, die die M3-Mutter aufnimmt; die obere Seite ist also diejenige, die eine Senkbohrung für die Schraube hat. Nun nimmst du die 2 verbleibenden Stangen und steckst sie durch die restlichen Löcher der Box.
 ![](eb77-eh21_aufbau-1-IMG_4927.JPG)
 
 Steck' nun die M3x20 Senkkopfschraube in die Oberseite der Box und sichere sie mit der verbleibenden M3-Mutter.
