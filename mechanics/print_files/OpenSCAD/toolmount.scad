@@ -1,16 +1,17 @@
 $fn=50;
 laenge=70;
+breite=17.8;
 
 difference(){
   union(){
     translate([-9,0,5]){
       rotate([0,90,0]){
-        cylinder(r=5,h=18);
+        cylinder(r=5,h=breite);
       }
     }
     difference(){
       translate([-9,0,0]){
-        cube([18,laenge,10]);
+        cube([breite,laenge,10]);
       }
       translate([-4,2,-1]){
         cube([5,18,12]);
