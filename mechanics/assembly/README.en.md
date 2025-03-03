@@ -20,11 +20,10 @@ Add the bearing (625ZZ) and the second of the M5 nuts to the rod.
 Hints: 
 * the second nut should be flush with the end of the threaded rod, next to the bearing which should be next to the nut you inserted first
 * make sure the two nuts hold the bearing firmly. That will take some artistic degrees of freedom from you eggbot77, though ;)
+* now put the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) on the bearing
 
 Now only the [faucet](eb77-eh21_bauteil-02-IMG_4895.JPG) is missing - ready is your first assembly group! You're doing great! ;)
 ![](eb77-eh21_baugruppe-1-IMG_4948.JPG)
-
-Oh - we didn't count putting the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) to the bearing.
 
 ## assembly group 2a: fixation of the pen
 

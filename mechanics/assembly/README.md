@@ -20,11 +20,10 @@ Bring' das Lager (625ZZ) und die zweite der M5-Muttern an der Stange an.
 Hinweise: 
 * Die zweite Mutter sollte mit dem Ende der Gewindestange bündig sein und direkt neben dem Lager, das sich neben der zuerst eingesetzten Mutter befinden sollte.
 * Stell' sicher, dass die beiden Muttern das Lager festhalten. Das nimmt dem EggBot77 allerdings einige künstlerische Freiheitsgrade ;)
+* Jetzt noch den [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) auf das Lager aufstecken
 
 Jetzt fehlt nur noch der [Wasserhahn](eb77-eh21_bauteil-02-IMG_4895.JPG) - fertig ist Deine erste Baugruppe! Das machst du toll! ;)
 ![](eb77-eh21_baugruppe-1-IMG_4948.JPG)
-
-Oh - wir haben den [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) nicht eingerechnet.
 
 ## Baugruppe 2a: Fixierung des Stiftes
 
