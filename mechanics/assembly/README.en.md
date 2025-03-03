@@ -6,7 +6,7 @@ In the tradition of a popular manufacturer of kids toys located in the city of B
 
 ## assembly group 1: fixation of the egg
 
-Tools needed: TBD
+Tools needed: 2 spanners 10mm
 
 Screw the threaded rod (M5) and insert it half way through the [tailstock holder](eb77-eh21_bauteil-01-IMG_4891.JPG)
 ![](eb77-eh21_baugruppe-1-1-IMG_4937.JPG)
@@ -28,6 +28,8 @@ Oh - we didn't count putting the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IM
 
 ## assembly group 2a: fixation of the pen
 
+Tools needed: none
+
 Don't get a drink just yet - this will be a very quick one.
 Insert the M4 bolt into the [nut knob](eb77-eh21_bauteil-04-IMG_4899.JPG)
 ![](eb77-eh21_baugruppe-2a-IMG_4934.JPG)
@@ -35,6 +37,8 @@ Insert the M4 bolt into the [nut knob](eb77-eh21_bauteil-04-IMG_4899.JPG)
 There you go - assembly group 2a is done, too!
 
 ## assembly group 2b: pen holder arm (integrates assembly group 2a)
+
+Tools needed: Allen key 2mm, Phillips head screwdriver medium, Phillips head screwdriver tiny (PH00)
 
 This is going to be a bit trickier. But do not worry. You'll be fine.
 Insert the M3x20 bolt with the cylinder head through the hole in the [toolmount](eb77-eh21_bauteil-05-IMG_4897.JPG) attaching the [spring](eb77-eh21_bauteil-06-IMG_4902.JPG) to it.
@@ -66,6 +70,9 @@ That's an easy one again. Use the 4 3mm screws to attach the PCB to the [nema eg
 ![](eb77-eh21_baugruppe-3-IMG_4953.JPG)
 
 ## complete assembly: integrates remaining single parts and all assembly groups
+
+Tools needed: Phillips head screwdriver medium
+
 You are now ready to assemble your EggBot77! Take the 2 longer (!) ones of the 6mm alumiminum rods and put them through the bottom holes of the [box intersecting rods](eb77-eh21_bauteil-10-IMG_4889.JPG). Which is the bottom side of the box? Glad you ask! That's the one that accepts the M3 nut; so, the top one is the one that has a countersunk hole for the bolt. Now take the 2 remaining rods and put them through the remaining holes of the box.
 ![](eb77-eh21_aufbau-1-IMG_4927.JPG)
 

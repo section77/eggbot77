@@ -6,7 +6,7 @@ In Anlehnung an einen bekannten Hersteller von Kinderspielzeug aus der dänische
 
 ## Montagegruppe 1: Fixierung für des Ei
 
-Benötigte Werkzeuge: TBD
+Benötigte Werkzeuge: 2 Gabelschlüssel 10mm
 
 Schraube die Gewindestange (M5) bis zur Hälfte durch den [Reitstockhalter](eb77-eh21_bauteil-01-IMG_4891.JPG)
 ![](eb77-eh21_baugruppe-1-1-IMG_4937.JPG)
@@ -28,6 +28,8 @@ Oh - wir haben den [Eierhalter Lagerseite](eb77-eh21_bauteil-03-IMG_4906) nicht 
 
 ## Baugruppe 2a: Fixierung des Stiftes
 
+Benötigte Werkzeuge: keines
+
 Hol' Dir noch nichts zu trinken - das geht ganz schnell.
 Führe die M4-Schraube in den [Griff](eb77-eh21_bauteil-04-IMG_4899.JPG)
 ![](eb77-eh21_baugruppe-2a-IMG_4934.JPG)
@@ -35,6 +37,8 @@ Führe die M4-Schraube in den [Griff](eb77-eh21_bauteil-04-IMG_4899.JPG)
 Na bitte - Baugruppe 2a ist auch fertig!
 
 ## Baugruppe 2b: Stifthalterarm (integriert Baugruppe 2a)
+
+Benötigte Werkzeuge: Innensechskantschlüssel 2mm, Kreuzschlitzschraubendreher mittel, Kreuzschlitzschraubendreher klein (PH00)
 
 Das wird jetzt ein bisschen kniffliger. Aber keine Sorge. Du schaffst das schon.
 Stecke die Zylinderkopfschraube M3x20 durch das Loch in der [Werkzeughalterung](eb77-eh21_bauteil-05-IMG_4897.JPG) und befestige die [Feder](eb77-eh21_bauteil-06-IMG_4902.JPG) daran.
@@ -59,11 +63,17 @@ Eine weitere Spezialschraube (die kleinste Schraube, die Du als Teil des Bausatz
 ![](eb77-eh21_baugruppe-2b-IMG_4960.JPG)
 
 ## Baugruppe 3: Platinenhalter
+
+Benötigte Werkzeuge: Kreuzschlitzschraubendreher mittel
+
 Das wird jetzt wieder einfach. Befestige die Platine mit den 4 3mm-Schrauben am [Platinenhalter](eb77-eh21_bauteil-08-IMG_4901.JPG) mit den [Abstandhaltern](eb77-eh21_bauteil-09-IMG_4905.JPG).
 ![](eb77-eh21_baugruppe-3-IMG_4952.JPG)
 ![](eb77-eh21_baugruppe-3-IMG_4953.JPG)
 
 ## Vollständiger Zusammenbau: integriert die restlichen Einzelteile und alle Baugruppen
+
+Benötigte Werkzeuge: Kreuzschlitzschraubendreher mittel, Innensechskantschlüssel 2mm
+
 Du bist nun bereit, Deinen EggBot77 zusammenzubauen! Nimm die 2 längeren (!) der 6mm Aluminiumstangen und stecke sie durch die unteren Löcher der [zentralen Box](eb77-eh21_bauteil-10-IMG_4889.JPG). Welche ist die Unterseite der Box? Gut, dass du fragst! Das ist diejenige, die die M3-Mutter aufnimmt; die obere Seite ist also diejenige, die eine Senkbohrung für die Schraube hat. Nun nimmst du die 2 verbleibenden Stangen und steckst sie durch die restlichen Löcher der Box.
 ![](eb77-eh21_aufbau-1-IMG_4927.JPG)
 
