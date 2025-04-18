@@ -82,7 +82,7 @@ Steck' den [Stepperhalter für den Stift](eb77-eh21_bauteil-11.JPG) (leicht zu e
 Der [Rotationsstepperhalter](eb77-eh21_bauteil-13.JPG) kommt an das linke Ende des längeren Stangenpaars; dann befindet sich der Stiftstepperhalter auf der anderen Seite des Bots. Langsam nimmt er Gestalt an, nicht wahr?
 ![](eb77-eh22_aufbau-3.JPG)
 
-Füge nun die vormontierte [Baugruppe 1](eb77-eh22_baugruppe-1.JPG) und den [Schutz](eb77-eh21_bauteil-14.JPG) auf der rechten Seite des längeren Stangenpaares hinzu.
+Füge nun die vormontierte [Baugruppe 1](eb77-eh22_baugruppe-1.JPG) und den [Schutz](eb77-eh22_bauteil-14.JPG) auf der rechten Seite des längeren Stangenpaares hinzu.
 ![](eb77-eh22_aufbau-4.JPG)
 
 Es ist an der Zeit, den ersten Schrittmotor (achte darauf, dass Du den mit dem Zahnrad nimmst) und den [Eierhalter für die Stiftseite](eb77-eh21_bauteil-15-a.JPG) hinzuzufügen.
