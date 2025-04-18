@@ -8,7 +8,7 @@ Wir haben versucht den Aufbau der Platine so detailiert wie nötig mit vielen Bi
 
 ### Lötbrücke SJ7 schließen
 
-Dadurch wird das 3,3V PWM Signal des ESP32s direkt an der Servo duchgegeben. Der SG90 "Micro Servo 9g" kommt normalerweise mit dem 3,3V Pegeln zurecht. Solltest du einen anderen Servo mit 5V PWM verwenden wollen, kannst du diesen Schritt überspringen und stattdessen Q1 und R1 einlöten.
+Dadurch wird das 3,3V PWM Signal des ESP32s direkt an den Servo duchgegeben. Der SG90 "Micro Servo 9g" kommt normalerweise mit dem 3,3V Pegeln zurecht. Solltest du einen anderen Servo mit 5V PWM verwenden wollen, kannst du diesen Schritt überspringen und stattdessen Q1 und R1 einlöten.
 
 Für den Easterhegg-Workshop empfehlen wir SJ7 zu schließen.
 
@@ -16,7 +16,7 @@ Für den Easterhegg-Workshop empfehlen wir SJ7 zu schließen.
 
 ### Lötbrücken für microstepping schließen
 
-Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 an beiden Treibern geschlossen). Wenn Du einen anderen Schrittmtor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken zunächst offen lassen und erst ganz am Ende schließen.
+Die Eggbot77 firmware geht davon aus, dass am A4988 Treiber 1/16 Microstepping aktiv ist (alle drei Lötbrücken MS1-MS3 an beiden Treibern geschlossen). Wenn Du einen anderen Schrittmotor, als den beigelegten Minebea 17PM-K374BN01CN verwenden willst oder den Schrittmotorstrom messen und einstellen willst, solltest du die Lötbrücken zunächst offen lassen und erst ganz am Ende schließen.
 
 Für den Easterhegg-Workshop empfehlen wir alle 6 Lötbrücken zu schließen.
 
