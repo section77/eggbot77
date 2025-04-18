@@ -86,6 +86,7 @@ Füge nun die vormontierte [Baugruppe 1](eb77-eh22_baugruppe-1.JPG) und den [Sch
 ![](eb77-eh22_aufbau-4.JPG)
 
 Es ist an der Zeit, den ersten Schrittmotor (achte darauf, dass Du den mit dem Zahnrad nimmst) und den [Eierhalter für die Stiftseite](eb77-eh21_bauteil-15-a.JPG) hinzuzufügen.
+
 ![](eb77-eh22_aufbau-5.JPG)
 
 Füge jetzt den zweiten Stepper hinzu. Du kannst die Höhe später anpassen, aber fixiere ihn erst einmal irgendwo in der Mitte.
