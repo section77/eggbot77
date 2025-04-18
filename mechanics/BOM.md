@@ -5,7 +5,7 @@
 * Micro-Servo SG90 (1x)
 
 ### Ausdrucke
-![](./assembly/eb77-eh21_alle_druckteile-IMG_4913.JPG)
+![](./assembly/eb77-eh22_alle_druckteile.JPG)
 * [Reitstockhalter](./print_files/Tailstock_Holder.stl)
 * [Wasserhahn](./print_files/Faucet.stl)
 * [Eierhalter Lagerseite](./print_files/tpu-eierhalter-lagerseite.stl)
@@ -27,7 +27,7 @@
   * TPU: ca. 11g
 
 ### Schrauben
-![](./assembly/eb77-eh21_alle_metallteile-IMG_4916.JPG)
+![](./assembly/eb77-eh22_alle_metallteile.JPG)
 * Schraube M4x30 (1x; zur Fixierung des Stiftes)
 * Mutter M4 (1x; zur Fixierung des Stiftes)
 * Schraube M3x30 Linsenkopf (1x; für das Armgelenk)
