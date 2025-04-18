@@ -43,5 +43,5 @@
 
 ### Sonstige Komponenten
 * Lager 625ZZ
-* Alustange 6mmm, ca. 12,5cm (2x)
-* Alustange 6mmm, ca. 16,5cm (2x)
+* Alustange 6mmm, ca. 12 cm (2x)
+* Alustange 6mmm, ca. 15 cm (2x)

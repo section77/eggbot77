@@ -5,7 +5,7 @@
 
 Section77 Variante des EggBots mit ESP32 S2 mini
 
-![](eb77-eh21.jpeg)
+![](eb77-eh22.jpeg)
 
 Willkommen! :)
 
