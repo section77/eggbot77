@@ -1,7 +1,7 @@
 ## Materialliste Mechanik
 
 ### Motoren
-* Schrittmotor NEMA17 (2x)
+* Schrittmotor NEMA17 (1x mit quadratischer Achse 3x3 mm und 1x mit Zahnrad)
 * Micro-Servo SG90 (1x)
 
 ### Ausdrucke

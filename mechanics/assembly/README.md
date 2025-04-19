@@ -6,7 +6,7 @@ In Anlehnung an einen bekannten Hersteller von Kinderspielzeug aus der dänische
 
 ## Montagegruppe 1: Fixierung für des Ei
 
-Benötigte Werkzeuge: 2 Gabelschlüssel 10mm
+Benötigte Werkzeuge: 2 Gabelschlüssel 8 mm
 
 Schraube die Gewindestange (M5) bis zur Hälfte durch den [Reitstockhalter](eb77-eh21_bauteil-01.JPG)
 ![](eb77-eh22_baugruppe-1-1.JPG)
