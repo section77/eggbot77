@@ -21,4 +21,4 @@
 
 // ESP32 LED controller channels
 #define LED_BUILTIN_LEDC_CH 1
-#define SERVO_PIN_LEDC_CH 2
+#define SERVO_PIN_LEDC_CH 6
