@@ -1,11 +1,11 @@
 ## BOM mechanics
 
 ### Motors
-* Stepper NEMA17 (2x)
+* Stepper NEMA17 (1x with a square axis 3x3 mm and 1x with a gear)
 * Micro Servo SG90 (1x)
 
 ### 3d printed parts
-![](./assembly/eb77-eh21_alle_druckteile-IMG_4913.JPG)
+![](./assembly/eb77-eh21_alle_druckteile.JPG)
 * [Tail stock holder](./print_files/Tailstock_Holder.stl)
 * [Faucet](./print_files/Faucet.stl)
 * [Eierhalter Lagerseite](./print_files/tpu-eierhalter-lagerseite.stl)
@@ -27,7 +27,7 @@
   * TPU: some 11g
 
 ### Screws and bolts
-![](./assembly/eb77-eh21_alle_metallteile-IMG_4916.JPG)
+![](./assembly/eb77-eh21_alle_metallteile.JPG)
 * Bolt M4x30 (1x; holding the pen)
 * Nut M4 (1x; holding the pen)
 * Bolt M3x30 lens head (1x; for the hinge)
