@@ -66,6 +66,7 @@ Eine weitere Spezialschraube (die kleinste Schraube, die Du als Teil des Bausatz
 Benötigte Werkzeuge: Innensechskantschlüssel 2,5 mm
 
 Das wird jetzt wieder einfach. Befestige die Platine mit den letzten 4 der M3x8 mm-Schrauben am [Platinenhalter](eb77-eh21_bauteil-08.JPG) mit den [Abstandhaltern](eb77-eh21_bauteil-09.JPG)
+
 ![](eb77-eh22_baugruppe-3-1.JPG)
 ![](eb77-eh22_baugruppe-3-2.JPG)
 

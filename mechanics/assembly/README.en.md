@@ -20,7 +20,7 @@ Add the bearing (625ZZ) and the second of the M5 nuts to the rod.
 Hints: 
 * the second nut should be flush with the end of the threaded rod, next to the bearing which should be next to the nut you inserted first
 * make sure the two nuts hold the bearing firmly. That will take some artistic degrees of freedom from you eggbot77, though ;)
-* now put the [Eierhalter Lagerseite](eb77-eh21_bauteil-03) on the bearing
+* now put the [Eierhalter Lagerseite](eb77-eh21_bauteil-03-a.JPG) on the bearing
 
 Now only the [faucet](eb77-eh21_bauteil-02.JPG) is missing - ready is your first assembly group! You're doing great! ;)
 ![](eb77-eh22_baugruppe-1.JPG)
@@ -43,20 +43,20 @@ This is going to be a bit trickier. But do not worry. You'll be fine.
 Insert the M3x20 bolt with the cylinder head through the hole in the [toolmount](eb77-eh21_bauteil-05.JPG) attaching the [spring](eb77-eh21_bauteil-06.JPG) to it.
 Hints: give the following picture a close look and you'll see which of the many ways this could be done is the only correct one.
 
-![](eb77-eh22_baugruppe-2b.JPG)
+![](eb77-eh22_baugruppe-2b-1.JPG)
 
 Now take the M3x30 bolt to attach the [penarm](eb77-eh21_bauteil-07.JPG) to the toolmount.
-![](eb77-eh22_baugruppe-2b.JPG)
+![](eb77-eh22_baugruppe-2b-2.JPG)
 
-Next you insert the M4 nut into the cutout in the toolmount and screw assemby group 2a into it.
-![](eb77-eh22_baugruppe-2b.JPG)
+Secure the screw with the lock nut (that's the one with the blue rubber ring).
+![](eb77-eh22_baugruppe-2b-3.JPG)
 
 Getting even more tricky now: attach the blue mini servo using the 2 miniature screws. Insert the screws from the servo side so they will rest in the penarm.
 
-![](eb77-eh22_baugruppe-2b.JPG)
+![](eb77-eh22_baugruppe-2b-4.JPG)
 
 Fix the servo arm with the single 3mm screw.
-![](eb77-eh22_baugruppe-2b.JPG)
+![](eb77-eh22_baugruppe-2b-5.JPG)
 
 Hint: you might need to re-adjust the angle at which the arm is fixed to the servo later. So don't worry too much about that now.
 
@@ -65,8 +65,8 @@ One more special screw (the smallest one that was provided to you as part of the
 
 ## assembly group 3: PCB holder
 That's an easy one again. Use the 4 3mm screws to attach the PCB to the [nema eggbot77 mount/PCB holder](eb77-eh21_bauteil-08.JPG) with the [spacers](eb77-eh21_bauteil-09.JPG).
-![](eb77-eh22_baugruppe-3.JPG)
-![](eb77-eh22_baugruppe-3.JPG)
+![](eb77-eh22_baugruppe-3-1.JPG)
+![](eb77-eh22_baugruppe-3-2.JPG)
 
 ## complete assembly: integrates remaining single parts and all assembly groups
 
