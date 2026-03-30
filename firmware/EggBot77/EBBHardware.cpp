@@ -50,12 +50,21 @@ void EBBHardware::init()
     setPenState(mPenState, 0);
 
     // attach onboard LED to channel 1
-    ledcAttachPin(LED_BUILTIN, 1);
-    ledcSetup(LED_BUILTIN_LEDC_CH, 1200, 10);
+    // arduino-esp32 version 2.x
+    //ledcAttachPin(LED_BUILTIN, LED_BUILTIN_LEDC_CH);
+    //ledcSetup(LED_BUILTIN_LEDC_CH, 1200, 10);
+
+    // arduino-esp32 version 3.x
+    ledcAttach(LED_BUILTIN, 1200, 10);
+
 
     // attach Servo PWM pin to channel 2
-    ledcAttachPin(SERVO_PIN, SERVO_PIN_LEDC_CH);
-    ledcSetup(SERVO_PIN_LEDC_CH, 50, 10);
+    // arduino-esp32 version 2.x
+    //ledcAttachPin(SERVO_PIN, SERVO_PIN_LEDC_CH);
+    //ledcSetup(SERVO_PIN_LEDC_CH, 50, 10);
+
+    // arduino-esp32 version 3.x
+    ledcAttach(SERVO_PIN, 50, 10);
 }
 
 void EBBHardware::processEvents()
