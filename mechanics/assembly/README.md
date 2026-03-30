@@ -65,7 +65,7 @@ Eine weitere Spezialschraube (die kleinste Schraube, die Du als Teil des Bausatz
 
 Benötigte Werkzeuge: Innensechskantschlüssel 2,5 mm
 
-Das wird jetzt wieder einfach. Befestige die Platine mit den letzten 4 der M3x8 mm-Schrauben am [Platinenhalter](eb77-eh21_bauteil-08.JPG) mit den [Abstandhaltern](eb77-eh21_bauteil-09.JPG).
+Das wird jetzt wieder einfach. Befestige die Platine mit den letzten 4 der M3x8 mm-Schrauben am [Platinenhalter](eb77-eh21_bauteil-08.JPG) mit den [Abstandhaltern](eb77-eh21_bauteil-09.JPG)
 ![](eb77-eh22_baugruppe-3-1.JPG)
 ![](eb77-eh22_baugruppe-3-2.JPG)
 
@@ -85,7 +85,7 @@ Der [Rotationsstepperhalter](eb77-eh21_bauteil-13.JPG) kommt an das linke Ende d
 Füge nun die vormontierte [Baugruppe 1](eb77-eh22_baugruppe-1.JPG) und den [Schutz](eb77-eh22_bauteil-14.JPG) auf der rechten Seite des längeren Stangenpaares hinzu.
 ![](eb77-eh22_aufbau-4.JPG)
 
-Es ist an der Zeit, den ersten Schrittmotor (achte darauf, dass Du den mit dem Zahnrad nimmst) und den [Eierhalter für die Stiftseite](eb77-eh21_bauteil-15-a.JPG) hinzuzufügen.
+Es ist an der Zeit, den ersten Schrittmotor (achte darauf, dass Du den mit dem Zahnrad nimmst) und den [Eierhalter für die Motorseite](eb77-eh21_bauteil-15-a.JPG) hinzuzufügen.
 
 ![](eb77-eh22_aufbau-5.JPG)
 

@@ -6,20 +6,18 @@
 
 ### Ausdrucke
 ![](./assembly/eb77-eh22_alle_druckteile.JPG)
-* [Reitstockhalter](./print_files/Tailstock_Holder.stl)
+* [Reitstockhalter](./print_files/tailstock_V2.stl)
 * [Wasserhahn](./print_files/Faucet.stl)
 * [Eierhalter Lagerseite](./print_files/tpu-eierhalter-lagerseite.stl)
 * [Griff](./print_files/nut_knob_v1_5_1_M4.stl)
 * [Werkzeughalter](./print_files/toolmount.stl)
 * [Feder](./print_files/spring-3mm.stl)
-* [Stiftarm](./print_files/penarm-stronger.stl)
+* [Stiftarm](./print_files/penarm-strongerV2.stl)
 * [Platinenhalter](./print_files/nema-eggbot77-mount.stl)
 * [Abstandhalter](./print_files/spacer.stl)
-* [Zentrum](./print_files/Box_Intersecting_Rods.stl)
-* [Stepperhalter für den Stift](./print_files/stepperholder_Pen_6mm.stl)
-* [Stiftstepperhalterfuß](./print_files/Pen_Stepper_Holder_Foot.stl)
-* [Rotationsstepperhalter](./print_files/Rotational_Stepper_Holder_gelocht.stl)
-* [Rotationsschritthalterfuß](./print_files/Rotational_Stepper_Holder_Foot.stl)
+* [Zentrum](./print_files/Box_IntersectionNew.stl)
+* [Stepperhalter für den Stift](./print_files/stepperholderV4.stl)
+* [Rotationsstepperhalter](./print_files/Rotational_Stepper_HolderV2.stl)
 * [Eierhalter Motorseite](./print_files/tpu-eierhalter-stiftseite.stl)
 
 #### Benötigte Filamentmenge (20% Infill): 
