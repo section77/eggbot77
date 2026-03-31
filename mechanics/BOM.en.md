@@ -5,10 +5,10 @@
 * Micro Servo SG90 (1x)
 
 ### 3d printed parts
-![](./assembly/eb77-eh21_alle_druckteile.JPG)
+![](./assembly/eb77-eh22_alle_druckteile.JPG)
 * [Tail stock holder](./print_files/tailstock_V2.stl)
 * [Faucet](./print_files/Faucet.stl)
-* [Eierhalter Lagerseite](./print_files/tpu-eierhalter-lagerseite.stl)
+* [Egg holder bearing side](./print_files/tpu-eierhalter-lagerseite.stl)
 * [Nut knob](./print_files/nut_knob_v1_5_1_M4.stl)
 * [Tool mount](./print_files/toolmount.stl)
 * [Spring](./print_files/spring-3mm.stl)
@@ -25,7 +25,7 @@
   * TPU: some 11g
 
 ### Screws and bolts
-![](./assembly/eb77-eh21_alle_metallteile.JPG)
+![](./assembly/eb77-eh22_alle_metallteile.JPG)
 * Bolt M4x30 (1x; holding the pen)
 * Nut M4 (1x; holding the pen)
 * Bolt M3x30 lens head (1x; for the hinge)
