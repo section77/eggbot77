@@ -7,3 +7,9 @@
 ## Arduino IDE settings common for all projects here
 
 * USB CDC On Boot: "Enabled"
+* Controller: LOLIN S2 Mini
+
+## Versions that we have tested successfully with
+
+* Arduino IDE: 2.3.8 (latest as of 2026-03-30)
+* esp32: 3.3.7 (latest as of 2026-03-30)
